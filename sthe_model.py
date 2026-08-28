@@ -115,8 +115,9 @@ def longitudinal_pitch(p_t, layout):
     return p_t
 
 
-# Bell-Delaware banded curve-fit coefficients (Taborek tables, as compiled by
-# Shah & Sekulic and the Serna-Jimenez compact formulation). Each row is
+# Bell-Delaware banded curve-fit coefficients (Taborek's fits, as compiled in
+# Kakac & Liu Table 8.6 and Serth & Lestina Table 6.1; see the Serna-Jimenez
+# compact formulation for the surrounding method). Each row is
 # (upper Re limit, a1, a2, a3, a4, b1, b2, b3, b4); bands are selected by
 # Re_s <= limit, i.e. rows cover Re <10, 10-10^2, 10^2-10^3, 10^3-10^4, >10^4.
 _JF_RANGES = {
@@ -129,11 +130,14 @@ _JF_RANGES = {
     ],
     45: [
         (10, 1.55, -0.667, 1.93, 0.5, 32.0, -1.0, 6.59, 0.52),
-        # AUDIT R2-4a: a1 = 1.498 per the published table (Taborek; Shah &
-        # Sekulic Table 8.6). The R1 code had 0.498 (dropped leading digit),
-        # a -67%/+200% j discontinuity at Re_s = 10/100 that under-rated
-        # 45-deg layouts by ~3x over 10 < Re_s < 100 (the Case-4 shell-Re
-        # range). With 1.498 both band edges are continuous within 1%.
+        # AUDIT R2-4a: a1 = 1.498. The printed compilations (Kakac & Liu
+        # Table 8.6; Serth & Lestina Table 6.1, both from Taborek) carry
+        # 0.498 -- an erratum: it contradicts the original ideal-bank curves
+        # reproduced in the same books (j(10) ~ 0.33 vs 0.11) and breaks
+        # band-edge continuity by ~3x at BOTH edges, while 1.498 (a dropped
+        # leading digit) restores essentially exact continuity. The R1 code
+        # carried the printed 0.498 faithfully, under-rating 45-deg layouts
+        # ~3x over 10 < Re_s < 100 (the Case-4 shell-Re range).
         (100, 1.498, -0.656, 1.93, 0.5, 26.2, -0.913, 6.59, 0.52),
         (1000, 0.73, -0.50, 1.93, 0.5, 3.5, -0.476, 6.59, 0.52),
         (10000, 0.37, -0.396, 1.93, 0.5, 0.333, -0.136, 6.59, 0.52),
@@ -144,8 +148,9 @@ _JF_RANGES = {
         (100, 0.9, -0.631, 1.187, 0.37, 32.1, -0.963, 6.3, 0.378),
         (1000, 0.408, -0.46, 1.187, 0.37, 6.09, -0.602, 6.3, 0.378),
         (10000, 0.107, -0.266, 1.187, 0.37, 0.0815, 0.022, 6.3, 0.378),
-        # AUDIT R2-4a: b2 = -0.148 per the published table (Taborek; Shah &
-        # Sekulic Table 8.6). The R1 code had -0.418 (transposed digits),
+        # AUDIT R2-4a: b2 = -0.148 as printed in both compilations (Kakac &
+        # Liu Table 8.6; Serth & Lestina Table 6.1, both from Taborek).
+        # The R1 code had -0.418 (transposed digits),
         # which made the 90-deg friction factor jump ~12x when Re_s crossed
         # 1e4 downward -- the spurious "regime boundary" that dominated the
         # Case-3 nominal response. With -0.148 the band edges are continuous
