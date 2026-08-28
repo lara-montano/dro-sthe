@@ -1,0 +1,6515 @@
+{
+  "case": "Case4",
+  "n_seeds": 16,
+  "kappas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "rho_grid": [
+    0.0,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "rho_star_hist": [
+    0.1,
+    0.0,
+    0.0,
+    0.0,
+    0.05,
+    0.0,
+    0.1,
+    0.0,
+    0.01,
+    0.0,
+    0.05,
+    0.0,
+    0.1,
+    0.1,
+    0.1,
+    0.05
+  ],
+  "rho_star_mode": 0.0,
+  "cv_details": [
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6811.114166026235
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 0.95,
+        "val_muTAC": 4791.455048222013
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 0.8,
+        "val_muTAC": 4794.059676425703
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6811.114166026235
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6804.549251217397
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 0.8,
+        "val_muTAC": 4794.059676425703
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6811.114166026235
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6804.549251217397
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 0.8,
+        "val_muTAC": 4794.059676425703
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6811.114166026235
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6804.549251217397
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 0.8,
+        "val_muTAC": 4794.059676425703
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6811.114166026235
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7211.039961961951
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7050.111540117228
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7212.3687665310745
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7211.039961961951
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6439.630601237996
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7004.182016862827
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7001.779844159474
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7212.7836875120975
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5303.058511999075
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5316.605373953832
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.081816637721
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5303.058511999075
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5316.605373953832
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.081816637721
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5303.058511999075
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5316.605373953832
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.081816637721
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5433.5987424998475
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5316.605373953832
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5446.427208348241
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6407.480450009504
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6420.337176377683
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6416.1838546147355
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6407.480450009504
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6420.337176377683
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6416.1838546147355
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7205.659800795169
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6420.337176377683
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.8306280243705
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5319.041743914151
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5315.9460539668125
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6102.246370637753
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5319.041743914151
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5315.9460539668125
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6102.246370637753
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5319.041743914151
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5315.9460539668125
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 0.95,
+        "val_muTAC": 6119.5989879649915
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5452.912348938831
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5444.872869733283
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 0.95,
+        "val_muTAC": 6119.5989879649915
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6423.62928438876
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6419.881611207057
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7206.324354389022
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6444.9871139980605
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6419.881611207057
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7198.426910130065
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7213.127162420138
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7211.241423829022
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7206.324354389022
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5305.215933192014
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.163911843074
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.435843135868
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5305.215933192014
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.163911843074
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.435843135868
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5305.215933192014
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.163911843074
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.435843135868
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5434.8383025983585
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5311.163911843074
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5453.041276870104
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6409.508633777068
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6415.148336014526
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6417.243131738666
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7206.559888666714
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6415.148336014526
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6417.243131738666
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7206.559888666714
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.0780556754935
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6417.243131738666
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 0.85,
+        "val_muTAC": 6121.504662031794
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6804.300690913189
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.757781146262
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 0.85,
+        "val_muTAC": 6121.504662031794
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6804.300690913189
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.757781146262
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 0.85,
+        "val_muTAC": 6121.504662031794
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6446.6499783121335
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.757781146262
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7208.292242502233
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6446.6499783121335
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.757781146262
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7208.292242502233
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6446.6499783121335
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.757781146262
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7208.292242502233
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7213.063519675523
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.9379155511415
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7208.292242502233
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7213.063519675523
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.9379155511415
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6409.043059853433
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5448.544679339492
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5438.789975938917
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6409.043059853433
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5448.544679339492
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5438.789975938917
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6409.043059853433
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5448.544679339492
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5438.789975938917
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6409.043059853433
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5448.544679339492
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5438.789975938917
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6409.043059853433
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6418.921017465464
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6411.785336849662
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7204.520174726786
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6418.921017465464
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6411.785336849662
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7204.520174726786
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7211.017024235955
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6197.503633851192
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5445.790827183319
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5437.877856834695
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5441.638563440259
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5445.790827183319
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5437.877856834695
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5441.638563440259
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5445.790827183319
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5437.877856834695
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5441.638563440259
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5445.790827183319
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6408.660374167728
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6415.940212212581
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6410.377114055611
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6408.660374167728
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6415.940212212581
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6410.377114055611
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6408.660374167728
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.481615471923
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6410.377114055611
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6195.200118010879
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.481615471923
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6808.801956178288
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5318.54840156153
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6799.673102421291
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6808.801956178288
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5318.54840156153
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6799.673102421291
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6808.801956178288
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5318.54840156153
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6799.673102421291
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5395.352242448905
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6814.0617873885885
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6799.673102421291
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 4966.932904888112
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6814.0617873885885
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6424.801685426283
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7212.399805886457
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6447.361260524976
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7208.204495251601
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7212.399805886457
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7214.347185417297
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7208.204495251601
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6421.624329797898
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5316.299257282554
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 0.7,
+        "val_muTAC": 4788.258817612729
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6421.624329797898
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5316.299257282554
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.181416451962
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6421.624329797898
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5316.299257282554
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.181416451962
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6421.624329797898
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5456.951952769077
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.181416451962
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6800.996224537969
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5396.132708945611
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 0.95,
+        "val_muTAC": 5387.984909517343
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7207.728744869404
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6441.518948811951
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6426.801918941372
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6993.772519139455
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7212.661144618103
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7208.892436661522
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6952.942667494875
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6427.219186555457
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5448.312137908397
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6952.942667494875
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6427.219186555457
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5448.312137908397
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6952.942667494875
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6427.219186555457
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5448.312137908397
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7217.982443276206
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6799.814072242012
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5448.312137908397
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.441340531348
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5658.337641721557
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7213.343595891294
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.441340531348
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5658.337641721557
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7213.343595891294
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6139.154131027828
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7208.69910340698
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7213.343595891294
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5437.931750774512
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.592924558128
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 0.9,
+        "val_muTAC": 5320.168128347823
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5437.931750774512
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.592924558128
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 0.9,
+        "val_muTAC": 5320.168128347823
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5437.931750774512
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.592924558128
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 0.9,
+        "val_muTAC": 5320.168128347823
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6798.857736621598
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.592924558128
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5464.238706667124
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6421.541197960297
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7210.330420000044
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6426.241446576751
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6421.541197960297
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7210.330420000044
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6426.241446576751
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7207.46511547502
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7210.330420000044
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7214.698336738635
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5436.96904406211
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5429.054976935111
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5441.363878850222
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5436.96904406211
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5429.054976935111
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5441.363878850222
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5436.96904406211
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5429.054976935111
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5441.363878850222
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5436.96904406211
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5429.054976935111
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5441.363878850222
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6416.139971259972
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7195.703445769754
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6414.464549311395
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6416.139971259972
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7203.490572188792
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6414.464549311395
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.349442649085
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7203.490572188792
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6414.464549311395
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5304.62109223578
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5456.225845758243
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 0.95,
+        "val_muTAC": 5316.91066820065
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5304.62109223578
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5456.225845758243
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 0.95,
+        "val_muTAC": 5316.91066820065
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5304.62109223578
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5456.225845758243
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5457.637931630146
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5304.62109223578
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6808.48034294222
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5457.637931630146
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6013.44577988233
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6435.494361030882
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6422.456043432145
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7207.417902712157
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6435.494361030882
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6422.456043432145
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6665.352776197689
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6213.186081176462
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7212.826005741826
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5451.085042257864
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6804.237717481585
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 0.95,
+        "val_muTAC": 5456.590223044197
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5451.085042257864
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 0.9,
+        "val_muTAC": 5390.500004323824
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 0.95,
+        "val_muTAC": 5456.590223044197
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5451.085042257864
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6434.099140810076
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 0.95,
+        "val_muTAC": 5456.590223044197
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6806.8564209514325
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6434.099140810076
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 0.95,
+        "val_muTAC": 5456.590223044197
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6806.8564209514325
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7210.574484426053
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7214.349872594622
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 5669.913026474863
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7210.574484426053
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 5977.999413320634
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7213.297703592909
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7210.574484426053
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7214.349872594622
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5388.543685659831
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 0.95,
+        "val_muTAC": 5313.766375452593
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.907652801396
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 0.95,
+        "val_muTAC": 5388.543685659831
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 0.95,
+        "val_muTAC": 5313.766375452593
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.907652801396
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.741061635241
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 0.95,
+        "val_muTAC": 5313.766375452593
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6802.907652801396
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6427.12147005784
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 0.95,
+        "val_muTAC": 5457.580771003684
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6429.09927259201
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6427.12147005784
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6419.744358745509
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 6429.09927259201
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.018212256355
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6437.06733563236
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.433519367762
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.018212256355
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7211.687659108621
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7209.433519367762
+      }
+    ],
+    [
+      {
+        "rho": 0.0,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6812.794011921738
+      },
+      {
+        "rho": 0.0,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6807.10958495737
+      },
+      {
+        "rho": 0.0,
+        "fold": 2,
+        "val_feas": 0.85,
+        "val_muTAC": 6142.320800444056
+      },
+      {
+        "rho": 0.01,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6812.794011921738
+      },
+      {
+        "rho": 0.01,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6807.10958495737
+      },
+      {
+        "rho": 0.01,
+        "fold": 2,
+        "val_feas": 0.85,
+        "val_muTAC": 6142.320800444056
+      },
+      {
+        "rho": 0.02,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6812.794011921738
+      },
+      {
+        "rho": 0.02,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6807.10958495737
+      },
+      {
+        "rho": 0.02,
+        "fold": 2,
+        "val_feas": 0.85,
+        "val_muTAC": 6142.320800444056
+      },
+      {
+        "rho": 0.05,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6812.794011921738
+      },
+      {
+        "rho": 0.05,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 6807.10958495737
+      },
+      {
+        "rho": 0.05,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7217.580519279744
+      },
+      {
+        "rho": 0.1,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 6812.794011921738
+      },
+      {
+        "rho": 0.1,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5671.272453054195
+      },
+      {
+        "rho": 0.1,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7217.580519279744
+      },
+      {
+        "rho": 0.2,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7215.293087661057
+      },
+      {
+        "rho": 0.2,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 5671.272453054195
+      },
+      {
+        "rho": 0.2,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7217.580519279744
+      },
+      {
+        "rho": 0.4,
+        "fold": 0,
+        "val_feas": 1.0,
+        "val_muTAC": 7215.293087661057
+      },
+      {
+        "rho": 0.4,
+        "fold": 1,
+        "val_feas": 1.0,
+        "val_muTAC": 7213.846994729807
+      },
+      {
+        "rho": 0.4,
+        "fold": 2,
+        "val_feas": 1.0,
+        "val_muTAC": 7217.580519279744
+      }
+    ]
+  ],
+  "designs": {
+    "NOMINAL": [
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ],
+      [
+        0.3636702368683097,
+        1.0,
+        0.8590485805140579,
+        0.7231595093895881,
+        0.43934600698976456,
+        4.0,
+        0.3658760181182663,
+        1.5027221523615655,
+        0.010024923554383962,
+        0.011317976159390581,
+        0.9492245153730776,
+        2.595343600279352
+      ]
+    ],
+    "SAA": [
+      [
+        0.3460845646466887,
+        1.0176310283152623,
+        1.0,
+        0.6281132851963948,
+        0.9853849840988076,
+        1.284548009064395,
+        0.5267580014556176,
+        1.4471433380642176,
+        0.01,
+        0.019812045210410724,
+        0.9473693287790077,
+        3.167251965508827
+      ],
+      [
+        0.30017614923018576,
+        1.0,
+        0.0,
+        1.1865705533423623,
+        0.7758101948995688,
+        3.9195097378867976,
+        0.5486954695943488,
+        1.5999999999999996,
+        0.01000025412673074,
+        0.010000037850196068,
+        0.8639104012186206,
+        3.8991640293690915
+      ],
+      [
+        0.3503921997111483,
+        1.4675122792919044,
+        0.6437410332807846,
+        2.2284344404827134,
+        0.0,
+        1.4236391637703574,
+        0.3640233675822714,
+        1.3579051480850932,
+        0.010000760481302398,
+        0.03165416904771813,
+        0.9444486826376783,
+        3.959069932679416
+      ],
+      [
+        0.35421973625931047,
+        1.0,
+        0.7999256681078992,
+        1.4234818452749216,
+        0.19177450745765562,
+        0.0,
+        0.537143625631405,
+        1.5998935415513067,
+        0.01,
+        0.03534635803754155,
+        0.9499998233535734,
+        3.5477856839917017
+      ],
+      [
+        0.3049496506518594,
+        2.3424612416742203,
+        0.3585735862137102,
+        2.157161128845838,
+        0.9520891934542057,
+        3.757279034572025,
+        0.5419527804163886,
+        1.5926504379281243,
+        0.010000004819677888,
+        0.010131135692669782,
+        0.9499983006556612,
+        3.4453161892450974
+      ],
+      [
+        0.3564590059215629,
+        1.0176310283152623,
+        1.0,
+        0.6281132851963948,
+        0.9853849840988076,
+        1.284548009064395,
+        0.47631058820857985,
+        1.4343685773921586,
+        0.010281242786481223,
+        0.01344995391307862,
+        0.9499198993689881,
+        3.2482512730247226
+      ],
+      [
+        0.37045258994653074,
+        3.171019643399856,
+        0.049897447088748714,
+        1.0079381166612844,
+        0.0,
+        0.8879193730930051,
+        0.510500425703296,
+        1.5997500740648642,
+        0.010003572254701758,
+        0.0100007198356224,
+        0.95,
+        5.549847655178537
+      ],
+      [
+        0.34353176434523236,
+        1.0,
+        0.7999256681078992,
+        1.4234818452749216,
+        0.19177450745765562,
+        0.0,
+        0.5487004357968897,
+        1.5982999010236525,
+        0.01,
+        0.04071115285715331,
+        0.95,
+        3.695242378803874
+      ],
+      [
+        0.34061146320734004,
+        1.0,
+        0.7999256681078992,
+        1.4234818452749216,
+        0.19177450745765562,
+        0.0,
+        0.5433930633869171,
+        1.5989649453041697,
+        0.01,
+        0.03866533705077421,
+        0.9499997220779308,
+        3.7126912222126585
+      ],
+      [
+        0.3295331443046867,
+        2.2319377793334283,
+        0.6095643339798968,
+        0.9710333267046454,
+        0.2070190553093858,
+        1.1145858569464457,
+        0.55,
+        1.6,
+        0.01,
+        0.026054335958429806,
+        0.95,
+        3.6233571929226454
+      ],
+      [
+        0.32277028702126553,
+        1.0,
+        0.0,
+        1.1865705533423623,
+        0.7758101948995688,
+        3.9195097378867976,
+        0.44623199326392915,
+        1.5921614551983083,
+        0.01074546344473453,
+        0.011053512511447365,
+        0.95,
+        2.9761680124578085
+      ],
+      [
+        0.30542795913671494,
+        1.0,
+        0.12766098465419912,
+        1.6305104350139656,
+        0.9568836236961448,
+        3.422787262199702,
+        0.5471592296468246,
+        1.591025413491967,
+        0.010053377170541302,
+        0.0212518509049378,
+        0.95,
+        3.2824427137179066
+      ],
+      [
+        0.3065160595082921,
+        2.312411073107123,
+        1.0,
+        0.165903976733917,
+        0.4058873669565568,
+        2.73817500731484,
+        0.5446860883410828,
+        1.5992311814167346,
+        0.010006801592193713,
+        0.010458511865895633,
+        0.95,
+        4.079664318881003
+      ],
+      [
+        0.34518051619938617,
+        2.2319377793334283,
+        0.590268073914584,
+        0.9710333267046454,
+        0.0,
+        1.1145858569464457,
+        0.5378635328516068,
+        1.281642406663666,
+        0.01199285245330729,
+        0.01000834831707513,
+        0.95,
+        3.539288561412399
+      ],
+      [
+        0.36740537435177195,
+        3.171019643399856,
+        0.049897447088748714,
+        1.0079381166612844,
+        0.0,
+        0.8879193730930051,
+        0.4891347191774572,
+        1.4647063080028935,
+        0.010367993955287286,
+        0.010108536379514563,
+        0.95,
+        5.5110803698449615
+      ],
+      [
+        0.31376752661779916,
+        1.0,
+        0.8292315270737314,
+        0.0,
+        0.7736895738106676,
+        4.0,
+        0.3626238777409587,
+        1.580323348115078,
+        0.01,
+        0.04272409468888891,
+        0.9258127884823271,
+        4.0555458942704945
+      ]
+    ],
+    "CVAR": [
+      [
+        0.38284500057921167,
+        1.0,
+        0.8614482779982295,
+        1.8481226082864755,
+        0.32404128860862147,
+        1.2877948424922714,
+        0.3569372557393136,
+        1.4738172803089533,
+        0.01,
+        0.013114486136101942,
+        0.95,
+        2.9305752726972796
+      ],
+      [
+        0.32081700785466194,
+        1.0,
+        0.0,
+        1.1865705533423623,
+        0.7758101948995688,
+        3.9195097378867976,
+        0.54954881908685,
+        1.2724658104922741,
+        0.037750164983392634,
+        0.012047247348604372,
+        0.9474029413204161,
+        3.508801314254681
+      ],
+      [
+        0.399225161794811,
+        1.7603449883125648,
+        0.854370139191089,
+        1.8941946674699963,
+        0.6518832707721075,
+        2.5180126494436283,
+        0.2384361338011856,
+        1.5992552278081453,
+        0.01,
+        0.01001193644284569,
+        0.95,
+        2.881275281977141
+      ],
+      [
+        0.3753739942705462,
+        2.131297872721161,
+        0.7152470793085131,
+        1.403568157322403,
+        0.2642791482015062,
+        1.2877948424922714,
+        0.3307593371848102,
+        1.4097837048462933,
+        0.01,
+        0.010003233545471463,
+        0.95,
+        3.01543654726641
+      ],
+      [
+        0.3885957311836985,
+        2.131297872721161,
+        0.7152470793085131,
+        1.403568157322403,
+        0.2642791482015062,
+        1.2877948424922714,
+        0.33124574826736153,
+        1.240513352540067,
+        0.010417989462156892,
+        0.03957288886059408,
+        0.9499935790536651,
+        2.94975076469232
+      ],
+      [
+        0.42216601382340546,
+        1.0,
+        1.0,
+        1.904116060273752,
+        0.0,
+        1.866465904948879,
+        0.2487219861401212,
+        1.5855234519828032,
+        0.01,
+        0.010920912820253991,
+        0.95,
+        2.6950935314568834
+      ],
+      [
+        0.3600571814020036,
+        1.737738947090656,
+        0.5414115996538678,
+        2.6906635128402074,
+        0.08549520323952556,
+        0.7427152632786445,
+        0.524832143906709,
+        1.0284372719712873,
+        0.010248025365337348,
+        0.05184557798301338,
+        0.9495917199382421,
+        4.365681275473722
+      ],
+      [
+        0.3384074306874898,
+        2.131297872721161,
+        0.7152470793085131,
+        1.403568157322403,
+        0.2642791482015062,
+        1.2877948424922714,
+        0.5378098871494454,
+        1.5971650034573934,
+        0.01,
+        0.011629455428249585,
+        0.95,
+        3.766341712917698
+      ],
+      [
+        0.3853599509186425,
+        2.131297872721161,
+        0.7152470793085131,
+        1.403568157322403,
+        0.2642791482015062,
+        1.2877948424922714,
+        0.30337581368337974,
+        1.5001705941707097,
+        0.010059209331564237,
+        0.010663139234914886,
+        0.95,
+        2.8566449502296236
+      ],
+      [
+        0.36560940427649014,
+        1.0,
+        1.0,
+        1.4328076623896135,
+        0.699920664494949,
+        3.4783812999163723,
+        0.29387091516159225,
+        1.5994878974834412,
+        0.01,
+        0.01440725644918553,
+        0.95,
+        3.6206710669204494
+      ],
+      [
+        0.39687102395016294,
+        2.131297872721161,
+        0.7152470793085131,
+        1.403568157322403,
+        0.2642791482015062,
+        1.2877948424922714,
+        0.3308911706480929,
+        1.3360353749365448,
+        0.0106173290675768,
+        0.01,
+        0.9476496650035313,
+        2.9566279621072344
+      ],
+      [
+        0.33108707498540413,
+        2.131297872721161,
+        0.7152470793085131,
+        1.403568157322403,
+        0.2642791482015062,
+        1.2877948424922714,
+        0.5499873766328449,
+        1.5919839671318972,
+        0.01,
+        0.0100309762198066,
+        0.9499996669085082,
+        4.033529666376604
+      ],
+      [
+        0.32467995568884167,
+        1.0,
+        0.017555588293100464,
+        1.695704191464294,
+        0.5286952860715426,
+        4.0,
+        0.5444460708675015,
+        1.0687514674562677,
+        0.01278997113911744,
+        0.0242498809333965,
+        0.9497312132854565,
+        3.0500446390952822
+      ],
+      [
+        0.379298175004954,
+        2.131297872721161,
+        0.7152470793085131,
+        1.403568157322403,
+        0.2642791482015062,
+        1.2877948424922714,
+        0.37303738483889926,
+        1.4010877955024403,
+        0.011902948715169167,
+        0.03037296382067583,
+        0.9499513308091068,
+        3.4316011225479697
+      ],
+      [
+        0.36357895491715486,
+        1.0,
+        0.5027964411121337,
+        3.0,
+        0.7055541992283872,
+        1.2877948424922714,
+        0.4191866559852977,
+        1.5999999999999939,
+        0.010519117703263907,
+        0.01553475939891319,
+        0.9498400943487273,
+        4.069073816733427
+      ],
+      [
+        0.3943876657264529,
+        2.131297872721161,
+        1.0,
+        1.59028429171775,
+        0.8427162031851062,
+        0.0,
+        0.34408573952336874,
+        1.5798002763556456,
+        0.010268655046401738,
+        0.045342451814170424,
+        0.9457406702036701,
+        2.916388075654714
+      ]
+    ],
+    "WCMAX": [
+      [
+        0.40355671879621957,
+        1.0,
+        0.8614482779982295,
+        1.8481226082864755,
+        0.32404128860862147,
+        1.2877948424922714,
+        0.32145969677521224,
+        1.4382074802128875,
+        0.010097162757758002,
+        0.020280049027117615,
+        0.9221551730867554,
+        2.9028286771656964
+      ],
+      [
+        0.30178593951446786,
+        1.5360215686015746,
+        0.3415228108276715,
+        1.3511984738934026,
+        0.12995119012255985,
+        4.0,
+        0.5124106125478034,
+        1.598582728085875,
+        0.010658229418923974,
+        0.010077095971224767,
+        0.95,
+        3.149917523234292
+      ],
+      [
+        0.38965316075920575,
+        1.0175510258377392,
+        1.0,
+        1.931190441342118,
+        0.0,
+        1.2002205892757494,
+        0.3130612696096641,
+        1.0023875784153207,
+        0.012556714506644626,
+        0.01,
+        0.95,
+        2.929725259780499
+      ],
+      [
+        0.37377690802674174,
+        2.131297872721161,
+        0.7152470793085131,
+        1.403568157322403,
+        0.2642791482015062,
+        1.2877948424922714,
+        0.31863844956195797,
+        1.5002477418190745,
+        0.01,
+        0.01163427238705697,
+        0.95,
+        3.0194239394167735
+      ],
+      [
+        0.43376037469944473,
+        1.0,
+        1.0,
+        1.4898389558440703,
+        0.0,
+        2.709253809239815,
+        0.21160581246938537,
+        1.59990705579186,
+        0.0114313808190084,
+        0.04095253696533167,
+        0.8980205750268058,
+        2.9728961675865015
+      ],
+      [
+        0.3784499836059573,
+        1.0,
+        0.9026389509628157,
+        3.0,
+        0.9547760847035724,
+        0.0,
+        0.40441139650370084,
+        1.5999990457857365,
+        0.013675528851710687,
+        0.01,
+        0.95,
+        3.7802801923988527
+      ],
+      [
+        0.39343318763355717,
+        1.737738947090656,
+        0.6095643339798968,
+        1.5080370696865844,
+        0.15443625374996806,
+        1.1145858569464457,
+        0.3382019392592859,
+        1.591298503927967,
+        0.01,
+        0.010028923777821597,
+        0.9346684739268039,
+        3.2680463544558345
+      ],
+      [
+        0.3150808806387831,
+        2.9224350340184975,
+        0.5053545598300389,
+        0.029196355762659595,
+        0.4309110464820392,
+        4.0,
+        0.5388319216146271,
+        1.4730177961100646,
+        0.010046581771933192,
+        0.012080012451048037,
+        0.9499900930711092,
+        3.9686244130620794
+      ],
+      [
+        0.36074537846804844,
+        1.0,
+        0.8614482779982295,
+        1.8481226082864755,
+        0.32404128860862147,
+        1.2877948424922714,
+        0.5475589102384899,
+        1.5456089208391273,
+        0.01000000201859498,
+        0.030603583377088697,
+        0.9499763239319083,
+        3.546649477271238
+      ],
+      [
+        0.3498564516865242,
+        1.0,
+        0.9026389509628157,
+        3.0,
+        0.9547760847035724,
+        0.0,
+        0.5364137196879916,
+        1.5944005956783471,
+        0.01,
+        0.013308551744519484,
+        0.9417323386121031,
+        4.250463869850489
+      ],
+      [
+        0.3598194760151959,
+        1.0,
+        1.0,
+        1.904116060273752,
+        0.0,
+        1.866465904948879,
+        0.5448254062884432,
+        1.598494532962713,
+        0.01,
+        0.02938828877779017,
+        0.9499811488209027,
+        3.72881181687075
+      ],
+      [
+        0.3005631142909686,
+        2.522894209809702,
+        0.42914948653412266,
+        1.8323361392332265,
+        0.18729560574130263,
+        3.899571971275533,
+        0.530271798397961,
+        1.599999999999992,
+        0.015245894492455121,
+        0.017374700398886514,
+        0.9499984459557833,
+        3.4155175390278742
+      ],
+      [
+        0.4270927257183138,
+        1.0,
+        0.7509724325358828,
+        0.9448503253644295,
+        0.0,
+        0.4329414742293036,
+        0.3871825635827496,
+        1.0,
+        0.010178366720291314,
+        0.02323928507253757,
+        0.9481737339586049,
+        2.406199027353539
+      ],
+      [
+        0.3887627292232031,
+        2.131297872721161,
+        0.7152470793085131,
+        1.403568157322403,
+        0.2642791482015062,
+        1.2877948424922714,
+        0.35544151373918975,
+        1.3321348646792166,
+        0.011345589668748116,
+        0.03376855532422457,
+        0.9499986692673612,
+        3.2988591351384002
+      ],
+      [
+        0.4179185734727623,
+        1.0,
+        1.0,
+        2.1401027453375057,
+        0.0,
+        3.288999352149547,
+        0.22010449149547345,
+        1.2704973284928642,
+        0.01,
+        0.010010050296538571,
+        0.9499876587968861,
+        3.4083112846276045
+      ],
+      [
+        0.35930200109866517,
+        1.0,
+        0.8614482779982295,
+        1.8481226082864755,
+        0.32404128860862147,
+        1.2877948424922714,
+        0.5380759906316244,
+        1.5758454403122473,
+        0.01,
+        0.04738422080404897,
+        0.9493912245882834,
+        3.605962694492666
+      ]
+    ],
+    "WDRO": [
+      [
+        0.3350122973408626,
+        1.0,
+        0.8663766117682887,
+        0.8652319034904135,
+        0.416552766910751,
+        2.6227322821362327,
+        0.5493014414894064,
+        1.4432494334929382,
+        0.010060358889271977,
+        0.01,
+        0.94847290015876,
+        4.480810708419208
+      ],
+      [
+        0.30017614923018576,
+        1.0,
+        0.0,
+        1.1865705533423623,
+        0.7758101948995688,
+        3.9195097378867976,
+        0.5486954695943488,
+        1.5999999999999996,
+        0.01000025412673074,
+        0.010000037850196068,
+        0.8639104012186206,
+        3.8991640293690915
+      ],
+      [
+        0.3503921997111483,
+        1.4675122792919044,
+        0.6437410332807846,
+        2.2284344404827134,
+        0.0,
+        1.4236391637703574,
+        0.3640233675822714,
+        1.3579051480850932,
+        0.010000760481302398,
+        0.03165416904771813,
+        0.9444486826376783,
+        3.959069932679416
+      ],
+      [
+        0.35421973625931047,
+        1.0,
+        0.7999256681078992,
+        1.4234818452749216,
+        0.19177450745765562,
+        0.0,
+        0.537143625631405,
+        1.5998935415513067,
+        0.01,
+        0.03534635803754155,
+        0.9499998233535734,
+        3.5477856839917017
+      ],
+      [
+        0.3742082078593878,
+        3.171019643399856,
+        0.049897447088748714,
+        1.0079381166612844,
+        0.0,
+        0.8879193730930051,
+        0.5415165686402267,
+        1.5999327291298013,
+        0.010213723757367201,
+        0.010287122728951652,
+        0.95,
+        5.613085877612397
+      ],
+      [
+        0.3564590059215629,
+        1.0176310283152623,
+        1.0,
+        0.6281132851963948,
+        0.9853849840988076,
+        1.284548009064395,
+        0.47631058820857985,
+        1.4343685773921586,
+        0.010281242786481223,
+        0.01344995391307862,
+        0.9499198993689881,
+        3.2482512730247226
+      ],
+      [
+        0.30312703037856226,
+        2.3424612416742203,
+        0.3585735862137102,
+        2.157161128845838,
+        0.9520891934542057,
+        3.757279034572025,
+        0.5499999999999998,
+        1.5999999999999979,
+        0.010000829608851243,
+        0.01017240770254308,
+        0.95,
+        4.3727557990797425
+      ],
+      [
+        0.34353176434523236,
+        1.0,
+        0.7999256681078992,
+        1.4234818452749216,
+        0.19177450745765562,
+        0.0,
+        0.5487004357968897,
+        1.5982999010236525,
+        0.01,
+        0.04071115285715331,
+        0.95,
+        3.695242378803874
+      ],
+      [
+        0.34930650734844115,
+        1.0,
+        0.7999256681078992,
+        1.4234818452749216,
+        0.19177450745765562,
+        0.0,
+        0.5497465935986368,
+        1.503027179984529,
+        0.01,
+        0.043336355570076646,
+        0.949991900405863,
+        3.6151689588226503
+      ],
+      [
+        0.3295331443046867,
+        2.2319377793334283,
+        0.6095643339798968,
+        0.9710333267046454,
+        0.2070190553093858,
+        1.1145858569464457,
+        0.55,
+        1.6,
+        0.01,
+        0.026054335958429806,
+        0.95,
+        3.6233571929226454
+      ],
+      [
+        0.3442648589785454,
+        1.0,
+        0.8663766117682887,
+        0.8652319034904135,
+        0.416552766910751,
+        2.6227322821362327,
+        0.5271174828515213,
+        1.5993392602940157,
+        0.010227813440690403,
+        0.01012479659048814,
+        0.9489422604472588,
+        4.300550040404582
+      ],
+      [
+        0.30542795913671494,
+        1.0,
+        0.12766098465419912,
+        1.6305104350139656,
+        0.9568836236961448,
+        3.422787262199702,
+        0.5471592296468246,
+        1.591025413491967,
+        0.010053377170541302,
+        0.0212518509049378,
+        0.95,
+        3.2824427137179066
+      ],
+      [
+        0.34146569261268545,
+        1.0176310283152623,
+        1.0,
+        0.6281132851963948,
+        0.982663926720594,
+        1.284548009064395,
+        0.5434435451761246,
+        1.1754781547726356,
+        0.013983259368421035,
+        0.011807402770249165,
+        0.95,
+        4.176391078912595
+      ],
+      [
+        0.3651835544611603,
+        1.3629780028186729,
+        0.7431615260400993,
+        1.5922738129931595,
+        0.911383395048362,
+        1.4277837340583812,
+        0.3990664775011694,
+        1.2437038831751293,
+        0.011278609862553555,
+        0.050292237381059895,
+        0.9499994438650743,
+        4.224380391487648
+      ],
+      [
+        0.31102694857676416,
+        1.0,
+        0.42669503378592777,
+        0.0,
+        0.11718587582012496,
+        4.0,
+        0.5499999999999998,
+        1.5999996685405127,
+        0.020410571847943107,
+        0.01,
+        0.9499335339306725,
+        3.674067266203169
+      ],
+      [
+        0.32879706457995594,
+        1.0,
+        0.8292315270737314,
+        0.0,
+        0.7736895738106676,
+        4.0,
+        0.3061044013088751,
+        1.5947584465417437,
+        0.010149899453017537,
+        0.011756775480992503,
+        0.95,
+        4.294125889469956
+      ]
+    ]
+  },
+  "per_seed": {
+    "NOMINAL": {
+      "0.0": {
+        "feas": [
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528
+        ],
+        "feasFull": [
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528,
+          0.528
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678,
+          4417.611407764678
+        ],
+        "muTAC": [
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702,
+          4355.594463002702
+        ],
+        "penCVaR": [
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697,
+          105309.43941363697
+        ]
+      },
+      "0.25": {
+        "feas": [
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664
+        ],
+        "feasFull": [
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664,
+          0.42866666666666664
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876,
+          4428.56031349876
+        ],
+        "muTAC": [
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709,
+          4365.583303016709
+        ],
+        "penCVaR": [
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932,
+          123117.66408875932
+        ]
+      },
+      "0.5": {
+        "feas": [
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326
+        ],
+        "feasFull": [
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326,
+          0.326
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283,
+          4433.034743006283
+        ],
+        "muTAC": [
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185,
+          4376.845176687185
+        ],
+        "penCVaR": [
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133,
+          131724.14119238133
+        ]
+      },
+      "0.75": {
+        "feas": [
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666
+        ],
+        "feasFull": [
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666,
+          0.23766666666666666
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632,
+          4441.025639014632
+        ],
+        "muTAC": [
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597,
+          4386.306294440597
+        ],
+        "penCVaR": [
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196,
+          141962.20546329196
+        ]
+      },
+      "1.0": {
+        "feas": [
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184
+        ],
+        "feasFull": [
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184,
+          0.184
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746,
+          4446.423370898746
+        ],
+        "muTAC": [
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142,
+          4395.98558797142
+        ],
+        "penCVaR": [
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442,
+          147624.2823485442
+        ]
+      }
+    },
+    "SAA": {
+      "0.0": {
+        "feas": [
+          0.9523333333333334,
+          0.9666666666666667,
+          0.972,
+          0.971,
+          0.9653333333333334,
+          0.9963333333333333,
+          0.999,
+          0.9676666666666667,
+          0.9646666666666667,
+          0.993,
+          0.9926666666666667,
+          0.9893333333333333,
+          0.9853333333333333,
+          0.999,
+          0.9973333333333333,
+          0.969
+        ],
+        "feasFull": [
+          0.9523333333333334,
+          0.9666666666666667,
+          0.972,
+          0.971,
+          0.9653333333333334,
+          0.9963333333333333,
+          0.999,
+          0.9676666666666667,
+          0.9646666666666667,
+          0.993,
+          0.9926666666666667,
+          0.9893333333333333,
+          0.9853333333333333,
+          0.999,
+          0.9973333333333333,
+          0.969
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4894.138311662595,
+          5152.770021832995,
+          5521.658831920896,
+          4958.327844402331,
+          4899.855091332728,
+          5198.450188764219,
+          5469.092886109006,
+          4971.270744341233,
+          4966.900159974651,
+          5065.400045907538,
+          4999.173676369155,
+          4969.260842877537,
+          5040.207541171101,
+          5204.195806859327,
+          5462.971250319501,
+          5086.5545982037065
+        ],
+        "muTAC": [
+          4798.723851356228,
+          4992.937570235683,
+          5377.256418812041,
+          4862.842958448087,
+          4830.255107210562,
+          5097.858330168387,
+          5374.444716160758,
+          4861.839637379892,
+          4852.771478049448,
+          4961.3642027451,
+          4899.066840853028,
+          4867.764534781336,
+          4923.779877514849,
+          5111.767151191269,
+          5354.369080954051,
+          4948.307320487411
+        ],
+        "penCVaR": [
+          21983.153244030404,
+          17277.84596272066,
+          14204.772573247248,
+          14467.070789612588,
+          16786.111574989198,
+          5961.628632710662,
+          5497.985553528523,
+          16321.413887127632,
+          17301.096644518908,
+          6964.1182961888035,
+          7566.969510816674,
+          8322.911602950986,
+          9495.041354237996,
+          5302.775962361794,
+          5680.378246794588,
+          16172.815062447131
+        ]
+      },
+      "0.25": {
+        "feas": [
+          0.8973333333333333,
+          0.914,
+          0.9276666666666666,
+          0.9243333333333333,
+          0.9146666666666666,
+          0.989,
+          0.9963333333333333,
+          0.9163333333333333,
+          0.9126666666666666,
+          0.9783333333333334,
+          0.9743333333333334,
+          0.9666666666666667,
+          0.955,
+          0.995,
+          0.9923333333333333,
+          0.917
+        ],
+        "feasFull": [
+          0.8973333333333333,
+          0.914,
+          0.9276666666666666,
+          0.9243333333333333,
+          0.9146666666666666,
+          0.989,
+          0.9963333333333333,
+          0.9163333333333333,
+          0.9126666666666666,
+          0.9783333333333334,
+          0.9743333333333334,
+          0.9666666666666667,
+          0.955,
+          0.995,
+          0.9923333333333333,
+          0.917
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4911.005513133315,
+          5180.013885218497,
+          5547.08986195974,
+          4972.088313791693,
+          4911.530503658376,
+          5215.498775218677,
+          5479.459504502178,
+          4986.472593791852,
+          4983.02364555115,
+          5083.393409524253,
+          5015.533838946478,
+          4987.149070960565,
+          5059.553970414249,
+          5219.942937901691,
+          5474.183101560759,
+          5104.537706533693
+        ],
+        "muTAC": [
+          4814.027453633813,
+          5018.446529215604,
+          5400.584611654169,
+          4877.349969632882,
+          4841.315744019296,
+          5113.965735398398,
+          5387.88922591595,
+          4878.282036876695,
+          4870.007443569517,
+          4978.09991686309,
+          4914.97146070956,
+          4884.1570410889035,
+          4942.1628121762205,
+          5126.424135413984,
+          5369.535521772515,
+          4968.63542249893
+        ],
+        "penCVaR": [
+          41044.10893368173,
+          35879.198433265825,
+          29439.685721861373,
+          30805.90284490393,
+          33930.32080760248,
+          7991.743532955007,
+          6097.460368775042,
+          33947.11763835472,
+          35467.9739975921,
+          11499.023700910697,
+          13541.24646273874,
+          16109.646072101978,
+          19622.433975484426,
+          6047.34433622143,
+          6848.136553184246,
+          33725.70225037258
+        ]
+      },
+      "0.5": {
+        "feas": [
+          0.8273333333333334,
+          0.8556666666666667,
+          0.8816666666666667,
+          0.8733333333333333,
+          0.856,
+          0.9786666666666667,
+          0.996,
+          0.861,
+          0.8526666666666667,
+          0.9586666666666667,
+          0.9496666666666667,
+          0.936,
+          0.9186666666666666,
+          0.9943333333333333,
+          0.9906666666666667,
+          0.8603333333333333
+        ],
+        "feasFull": [
+          0.8273333333333334,
+          0.8556666666666667,
+          0.8816666666666667,
+          0.8733333333333333,
+          0.856,
+          0.9786666666666667,
+          0.996,
+          0.861,
+          0.8526666666666667,
+          0.9586666666666667,
+          0.9496666666666667,
+          0.936,
+          0.9186666666666666,
+          0.9943333333333333,
+          0.9906666666666667,
+          0.8603333333333333
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4918.1176879007935,
+          5191.003497371505,
+          5557.711278190718,
+          4977.7780841764,
+          4916.221154686844,
+          5223.470428393691,
+          5485.520693770872,
+          4992.826955880755,
+          4989.722561277306,
+          5091.395452372512,
+          5023.604578881057,
+          4994.585063187768,
+          5067.298516246202,
+          5227.316886694694,
+          5480.664451361399,
+          5112.284914495816
+        ],
+        "muTAC": [
+          4831.309777291637,
+          5047.253333946274,
+          5426.832672162363,
+          4893.802593405957,
+          4853.810573929536,
+          5132.042321274244,
+          5402.809770620242,
+          4896.945436278504,
+          4889.564036637182,
+          4996.907726786647,
+          4932.774773174523,
+          4902.606833440628,
+          4962.962742344497,
+          5142.960174921758,
+          5386.35189804271,
+          4991.767068105968
+        ],
+        "penCVaR": [
+          50524.16233687966,
+          46213.37487759503,
+          38493.04716784776,
+          40298.61059369825,
+          42850.10859606939,
+          9191.348349404465,
+          5984.732652592793,
+          43599.81264743738,
+          45202.20031477949,
+          16198.825378789474,
+          19025.462680633602,
+          24846.360614903853,
+          29138.16963974885,
+          6076.643587336985,
+          6881.866596117658,
+          43538.75986915582
+        ]
+      },
+      "0.75": {
+        "feas": [
+          0.7293333333333333,
+          0.7716666666666666,
+          0.7983333333333333,
+          0.7946666666666666,
+          0.7773333333333333,
+          0.952,
+          0.9896666666666667,
+          0.7773333333333333,
+          0.7653333333333333,
+          0.9126666666666666,
+          0.894,
+          0.8746666666666667,
+          0.8533333333333334,
+          0.983,
+          0.9763333333333334,
+          0.7776666666666666
+        ],
+        "feasFull": [
+          0.7293333333333333,
+          0.7716666666666666,
+          0.7983333333333333,
+          0.7946666666666666,
+          0.7773333333333333,
+          0.952,
+          0.9896666666666667,
+          0.7773333333333333,
+          0.7653333333333333,
+          0.9126666666666666,
+          0.894,
+          0.8746666666666667,
+          0.8533333333333334,
+          0.983,
+          0.9763333333333334,
+          0.7776666666666666
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4930.5029562243435,
+          5211.029228177958,
+          5576.31820303587,
+          4987.919170484009,
+          4924.792007054011,
+          5236.066605243568,
+          5492.660729037084,
+          5003.957672602877,
+          5001.5754565577645,
+          5104.723362666445,
+          5035.521579393725,
+          5007.661372412679,
+          5081.540739947694,
+          5238.9496605352915,
+          5488.211337670488,
+          5125.360717491007
+        ],
+        "muTAC": [
+          4845.978028714036,
+          5071.181547725128,
+          5448.999620441448,
+          4907.128688296871,
+          4864.145992581252,
+          5147.562735771239,
+          5416.215064704636,
+          4912.005663016423,
+          4905.371759403085,
+          5012.950881230873,
+          4948.170671056909,
+          4918.171694153626,
+          4980.13829560858,
+          5157.2237074627565,
+          5401.520179790136,
+          5010.345255846773
+        ],
+        "penCVaR": [
+          61849.121810360164,
+          58215.76570018675,
+          49459.56346094129,
+          51610.05290614033,
+          53742.47813507076,
+          14641.985057238637,
+          7726.833253623623,
+          55027.805129444685,
+          56688.022802427535,
+          27172.23549949711,
+          31972.090385363892,
+          36676.30802650515,
+          40619.99641113014,
+          8478.083433796503,
+          10275.659609228716,
+          55117.13662190832
+        ]
+      },
+      "1.0": {
+        "feas": [
+          0.6213333333333333,
+          0.6636666666666666,
+          0.7046666666666667,
+          0.6966666666666667,
+          0.6726666666666666,
+          0.925,
+          0.9746666666666667,
+          0.6716666666666666,
+          0.6613333333333333,
+          0.8573333333333333,
+          0.8363333333333334,
+          0.805,
+          0.775,
+          0.9656666666666667,
+          0.9543333333333334,
+          0.6723333333333333
+        ],
+        "feasFull": [
+          0.6213333333333333,
+          0.6636666666666666,
+          0.7046666666666667,
+          0.6966666666666667,
+          0.6726666666666666,
+          0.925,
+          0.9746666666666667,
+          0.6716666666666666,
+          0.6613333333333333,
+          0.8573333333333333,
+          0.8363333333333334,
+          0.805,
+          0.775,
+          0.9656666666666667,
+          0.9543333333333334,
+          0.6723333333333333
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4938.80927993575,
+          5224.435823973941,
+          5588.8281727190615,
+          4994.369730626092,
+          4930.4948309575675,
+          5244.410168439749,
+          5497.094316400297,
+          5011.016496778106,
+          5009.097336403116,
+          5113.5861870444305,
+          5043.425708224415,
+          5016.4674782626125,
+          5090.989060504822,
+          5246.654649360863,
+          5492.840954400623,
+          5133.69010632869
+        ],
+        "muTAC": [
+          4860.897126032424,
+          5095.915838877263,
+          5471.5161849805145,
+          4921.243805541381,
+          4874.865596254705,
+          5163.086859025194,
+          5428.976493630484,
+          4928.0219636221655,
+          4922.152306166023,
+          5029.106625383719,
+          4963.4271677390325,
+          4934.001659074512,
+          4998.0248586371345,
+          5171.513590649781,
+          5415.90023103322,
+          5030.2549116818545
+        ],
+        "penCVaR": [
+          67759.36847249909,
+          64545.84031719509,
+          55103.283453524826,
+          57446.92889716865,
+          59431.657705030986,
+          21796.4719864024,
+          8579.19978110721,
+          60929.95675596462,
+          62626.837578774604,
+          33021.97551054142,
+          38139.68993739526,
+          42875.537665312964,
+          46511.563910092584,
+          9747.65416847275,
+          11364.515090125444,
+          61130.21724793289
+        ]
+      }
+    },
+    "CVAR": {
+      "0.0": {
+        "feas": [
+          0.9476666666666667,
+          0.964,
+          0.9756666666666667,
+          0.971,
+          0.9633333333333334,
+          0.9963333333333333,
+          0.999,
+          0.9673333333333334,
+          0.9646666666666667,
+          0.993,
+          0.992,
+          0.9893333333333333,
+          0.986,
+          0.998,
+          0.997,
+          0.9696666666666667
+        ],
+        "feasFull": [
+          0.9476666666666667,
+          0.964,
+          0.9756666666666667,
+          0.971,
+          0.9633333333333334,
+          0.9963333333333333,
+          0.999,
+          0.9673333333333334,
+          0.9646666666666667,
+          0.993,
+          0.992,
+          0.9893333333333333,
+          0.986,
+          0.998,
+          0.997,
+          0.9696666666666667
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4790.465504801567,
+          5261.781343359658,
+          5012.951580273837,
+          4811.844202402215,
+          4900.405130468998,
+          5199.216828026365,
+          5873.0272274061745,
+          4831.026264899156,
+          4800.767745613327,
+          5163.926243005296,
+          4982.794819084443,
+          4978.882109472154,
+          5112.971957863282,
+          5200.047445360161,
+          5654.221790212246,
+          4893.427382048948
+        ],
+        "muTAC": [
+          4711.654748813489,
+          5163.7626538691575,
+          4925.784376095808,
+          4717.817153538089,
+          4816.844639012363,
+          5100.8363059659205,
+          5756.659550068393,
+          4740.391951741765,
+          4707.033056816162,
+          5074.0319741928015,
+          4908.528418819475,
+          4875.377086526069,
+          5009.883267447384,
+          5123.580386229234,
+          5544.445454062018,
+          4821.637318034871
+        ],
+        "penCVaR": [
+          23768.817103432026,
+          17458.35333953435,
+          12586.399267732106,
+          14164.874905362967,
+          17497.934224958084,
+          6041.46719575072,
+          5896.413463956674,
+          15943.441798836502,
+          17068.5140216346,
+          7129.868456731932,
+          7469.883876233441,
+          8151.45121645252,
+          9346.101177242124,
+          5325.691165775782,
+          5955.0018978642565,
+          14273.045853776048
+        ]
+      },
+      "0.25": {
+        "feas": [
+          0.8923333333333333,
+          0.913,
+          0.935,
+          0.9256666666666666,
+          0.9123333333333333,
+          0.989,
+          0.9956666666666667,
+          0.9166666666666666,
+          0.915,
+          0.978,
+          0.9736666666666667,
+          0.9686666666666667,
+          0.96,
+          0.994,
+          0.9916666666666667,
+          0.9253333333333333
+        ],
+        "feasFull": [
+          0.8923333333333333,
+          0.913,
+          0.935,
+          0.9256666666666666,
+          0.9123333333333333,
+          0.989,
+          0.9956666666666667,
+          0.9166666666666666,
+          0.915,
+          0.978,
+          0.9736666666666667,
+          0.9686666666666667,
+          0.96,
+          0.994,
+          0.9916666666666667,
+          0.9253333333333333
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4804.755329178183,
+          5279.066647426739,
+          5027.138573507289,
+          4826.577884494414,
+          4913.4443392452295,
+          5212.143088009758,
+          5892.584425430737,
+          4844.296435946633,
+          4814.309677068869,
+          5178.082792071052,
+          4994.946243874814,
+          4993.725315875558,
+          5129.693666094939,
+          5213.411587835045,
+          5672.792444459312,
+          4905.24147247641
+        ],
+        "muTAC": [
+          4724.252793437404,
+          5179.582777596831,
+          4939.579420824405,
+          4732.4561514662,
+          4829.556764781288,
+          5115.5281222093445,
+          5774.862235272459,
+          4754.225633198497,
+          4721.3810444917335,
+          5087.993414240023,
+          4919.969328278849,
+          4891.080172345136,
+          5026.225747800122,
+          5135.876351455227,
+          5561.921745257592,
+          4832.958866630756
+        ],
+        "penCVaR": [
+          42745.44738203802,
+          34520.64091327037,
+          27085.814592697756,
+          30594.38354080976,
+          35118.323450422315,
+          8236.564202035028,
+          6571.119050252339,
+          33304.165958026446,
+          35030.85379291917,
+          11756.001441517075,
+          13205.908197390623,
+          15628.548569607145,
+          18879.937054786136,
+          6172.482136306219,
+          7182.53639138969,
+          29955.522453538924
+        ]
+      },
+      "0.5": {
+        "feas": [
+          0.819,
+          0.854,
+          0.8943333333333333,
+          0.881,
+          0.854,
+          0.9783333333333334,
+          0.9946666666666667,
+          0.8626666666666667,
+          0.8593333333333333,
+          0.9586666666666667,
+          0.9523333333333334,
+          0.9363333333333334,
+          0.9236666666666666,
+          0.993,
+          0.9876666666666667,
+          0.8793333333333333
+        ],
+        "feasFull": [
+          0.819,
+          0.854,
+          0.8943333333333333,
+          0.881,
+          0.854,
+          0.9783333333333334,
+          0.9946666666666667,
+          0.8626666666666667,
+          0.8593333333333333,
+          0.9586666666666667,
+          0.9523333333333334,
+          0.9363333333333334,
+          0.9236666666666666,
+          0.993,
+          0.9876666666666667,
+          0.8793333333333333
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4811.092241393742,
+          5286.150601233558,
+          5034.214147500257,
+          4834.204046824821,
+          4920.365001406997,
+          5219.671871370487,
+          5900.452793731648,
+          4849.755028778138,
+          4821.778700249198,
+          5183.7630848493445,
+          5001.384693168893,
+          4999.87175473345,
+          5138.022882125881,
+          5219.579200492579,
+          5680.275583994504,
+          4911.3773273895495
+        ],
+        "muTAC": [
+          4738.49410461469,
+          5197.4000373961935,
+          4955.028334307262,
+          4748.8712041244235,
+          4843.876578079117,
+          5131.8999295225785,
+          5795.538510208784,
+          4769.9088920735285,
+          4737.403591629479,
+          5103.817099996097,
+          4932.839144412781,
+          4908.891171279294,
+          5044.512655777904,
+          5149.701377005542,
+          5581.664756194317,
+          4845.640337981506
+        ],
+        "penCVaR": [
+          51968.130345008016,
+          43460.079226797185,
+          36237.807995812705,
+          40046.3998607881,
+          43946.956677858994,
+          9352.389266207603,
+          6502.46328695181,
+          42741.562491519166,
+          44340.41380847577,
+          16597.51934055208,
+          18144.571450792413,
+          23873.29225865127,
+          28012.68114256096,
+          6181.3574367205,
+          7372.56809614508,
+          38564.85485626284
+        ]
+      },
+      "0.75": {
+        "feas": [
+          0.7176666666666667,
+          0.7703333333333333,
+          0.8173333333333334,
+          0.8006666666666666,
+          0.7713333333333333,
+          0.9536666666666667,
+          0.9866666666666667,
+          0.78,
+          0.778,
+          0.911,
+          0.902,
+          0.877,
+          0.8616666666666667,
+          0.981,
+          0.9713333333333334,
+          0.8023333333333333
+        ],
+        "feasFull": [
+          0.7176666666666667,
+          0.7703333333333333,
+          0.8173333333333334,
+          0.8006666666666666,
+          0.7713333333333333,
+          0.9536666666666667,
+          0.9866666666666667,
+          0.78,
+          0.778,
+          0.911,
+          0.902,
+          0.877,
+          0.8616666666666667,
+          0.981,
+          0.9713333333333334,
+          0.8023333333333333
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4821.829932797013,
+          5298.7606706284805,
+          5044.527947037274,
+          4844.854664074731,
+          4929.786446720527,
+          5229.018263017402,
+          5914.909809387379,
+          4859.53681134214,
+          4831.560259920617,
+          5194.2573788118925,
+          5010.17972839045,
+          5010.8058019134005,
+          5150.17201091696,
+          5229.738169149757,
+          5693.920756868031,
+          4920.163646984536
+        ],
+        "muTAC": [
+          4750.640747945305,
+          5212.385049912984,
+          4968.420544561966,
+          4763.2261485903855,
+          4856.540521533355,
+          5146.420551809587,
+          5812.678773738881,
+          4782.631974426461,
+          4751.499310193864,
+          5116.776575535625,
+          4944.148007752185,
+          4923.310103534747,
+          5060.350836685607,
+          5161.509424391246,
+          5598.032355844739,
+          4856.664739964087
+        ],
+        "penCVaR": [
+          63071.87711550631,
+          54310.052235184965,
+          47362.760655104285,
+          51433.19367090379,
+          54891.754281829366,
+          14884.79145503637,
+          8444.139728972043,
+          54040.28041322773,
+          55611.28360513092,
+          27481.937762634345,
+          29532.323369811682,
+          35332.72827224852,
+          39438.2016456042,
+          8661.571238604743,
+          11073.388431925112,
+          49147.83741059902
+        ]
+      },
+      "1.0": {
+        "feas": [
+          0.6093333333333333,
+          0.665,
+          0.7253333333333334,
+          0.705,
+          0.6716666666666666,
+          0.927,
+          0.9713333333333334,
+          0.677,
+          0.676,
+          0.8546666666666667,
+          0.8463333333333334,
+          0.8056666666666666,
+          0.788,
+          0.965,
+          0.9446666666666667,
+          0.7056666666666667
+        ],
+        "feasFull": [
+          0.6093333333333333,
+          0.665,
+          0.7253333333333334,
+          0.705,
+          0.6716666666666666,
+          0.927,
+          0.9713333333333334,
+          0.677,
+          0.676,
+          0.8546666666666667,
+          0.8463333333333334,
+          0.8056666666666666,
+          0.788,
+          0.965,
+          0.9446666666666667,
+          0.7056666666666667
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4828.98385922433,
+          5307.270157168993,
+          5051.363120816108,
+          4851.866037382805,
+          4935.95726899336,
+          5234.984277191258,
+          5924.490988288918,
+          4865.775081581803,
+          4837.912904564172,
+          5201.074764611986,
+          5015.9456418663585,
+          5017.756284857781,
+          5158.2218524220225,
+          5236.614764683433,
+          5703.039407362302,
+          4925.982087661947
+        ],
+        "muTAC": [
+          4763.043889739053,
+          5227.674120866666,
+          4981.682256352065,
+          4777.3713526679685,
+          4869.072257205927,
+          5160.463042119446,
+          5830.628075126434,
+          4796.085279623114,
+          4765.246567261954,
+          5130.387345974921,
+          4955.385462179623,
+          4938.5908537010255,
+          5076.019977513717,
+          5173.447477553454,
+          5614.984289505376,
+          4867.613875972852
+        ],
+        "penCVaR": [
+          68976.29152294624,
+          60041.950258019155,
+          53219.95309930222,
+          57432.995480862955,
+          60684.98600275867,
+          21728.023358220526,
+          9509.83189421199,
+          59867.487188239444,
+          61588.97182464967,
+          33250.56830837275,
+          35159.012283075106,
+          41158.86131307362,
+          45452.72614712413,
+          9909.192411168218,
+          15033.565775068493,
+          54435.71376910772
+        ]
+      }
+    },
+    "WCMAX": {
+      "0.0": {
+        "feas": [
+          0.9493333333333334,
+          0.967,
+          0.9763333333333334,
+          0.9713333333333334,
+          0.966,
+          0.9963333333333333,
+          0.999,
+          0.9686666666666667,
+          0.9646666666666667,
+          0.993,
+          0.993,
+          0.989,
+          0.988,
+          0.998,
+          0.9986666666666667,
+          0.966
+        ],
+        "feasFull": [
+          0.9493333333333334,
+          0.967,
+          0.9763333333333334,
+          0.9713333333333334,
+          0.966,
+          0.9963333333333333,
+          0.999,
+          0.9686666666666667,
+          0.9646666666666667,
+          0.993,
+          0.993,
+          0.989,
+          0.988,
+          0.998,
+          0.9986666666666667,
+          0.966
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4924.541519873912,
+          4826.22804909632,
+          5021.732986279847,
+          4827.300791513709,
+          5295.198145849725,
+          5583.932879703091,
+          5246.770975893067,
+          4900.754327782634,
+          5005.381799901986,
+          5534.136103123518,
+          5172.269910189705,
+          4934.380566468745,
+          5313.736178555689,
+          5223.28025932863,
+          5808.387596517889,
+          5039.572442688432
+        ],
+        "muTAC": [
+          4844.380363552265,
+          4717.201523201367,
+          4913.975781134881,
+          4727.04888408536,
+          5203.10523463495,
+          5487.695578312297,
+          5160.864283471242,
+          4812.130662251314,
+          4918.253854359477,
+          5412.227431520127,
+          5080.377780353678,
+          4836.869660872532,
+          5228.519578013974,
+          5148.875733291787,
+          5736.189899329821,
+          4949.983183385939
+        ],
+        "penCVaR": [
+          22882.86754725374,
+          17082.885717298435,
+          12607.713595303723,
+          14210.58136091873,
+          16322.001329589126,
+          6234.314674390927,
+          5328.673016915517,
+          15185.105064483927,
+          16804.13909455642,
+          7412.113782821803,
+          7516.690854020808,
+          8304.90114853312,
+          8868.759681770933,
+          5366.579784302362,
+          5921.012617464693,
+          16318.451107182565
+        ]
+      },
+      "0.25": {
+        "feas": [
+          0.895,
+          0.9153333333333333,
+          0.935,
+          0.9256666666666666,
+          0.9183333333333333,
+          0.9893333333333333,
+          0.9956666666666667,
+          0.9203333333333333,
+          0.9146666666666666,
+          0.978,
+          0.9743333333333334,
+          0.9673333333333334,
+          0.9656666666666667,
+          0.994,
+          0.9943333333333333,
+          0.916
+        ],
+        "feasFull": [
+          0.895,
+          0.9153333333333333,
+          0.935,
+          0.9256666666666666,
+          0.9183333333333333,
+          0.9893333333333333,
+          0.9956666666666667,
+          0.9203333333333333,
+          0.9146666666666666,
+          0.978,
+          0.9743333333333334,
+          0.9673333333333334,
+          0.9656666666666667,
+          0.994,
+          0.9943333333333333,
+          0.916
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4938.395856850012,
+          4845.247952883652,
+          5038.562908888137,
+          4842.592684730982,
+          5309.366887892196,
+          5600.8109370964785,
+          5262.04384861121,
+          4910.295442039249,
+          5017.1334306035715,
+          5552.4119728086725,
+          5184.620644835567,
+          4951.074317282507,
+          5323.991534179016,
+          5235.959281134809,
+          5820.750574550123,
+          5051.48881551589
+        ],
+        "muTAC": [
+          4857.256437562035,
+          4734.796676515505,
+          4930.634784710312,
+          4742.623123308483,
+          5217.445541852654,
+          5503.19596005539,
+          5174.656910832303,
+          4824.510910441218,
+          4931.228534426978,
+          5430.7422139294395,
+          5094.047852569101,
+          4852.557272638136,
+          5240.376426369734,
+          5160.7583510761615,
+          5747.807762771443,
+          4963.270070283038
+        ],
+        "penCVaR": [
+          41209.212635591226,
+          35804.813177401935,
+          27365.69911066809,
+          30713.84022244657,
+          32528.28668371948,
+          8072.685090294846,
+          5943.3051705439975,
+          31683.006680446666,
+          34092.28187822187,
+          11893.740352289142,
+          13037.622719145158,
+          16127.40456144506,
+          16550.151800418404,
+          6277.47709135141,
+          6906.048946192572,
+          33318.427354645995
+        ]
+      },
+      "0.5": {
+        "feas": [
+          0.8223333333333334,
+          0.8583333333333333,
+          0.893,
+          0.8803333333333333,
+          0.8666666666666667,
+          0.9823333333333333,
+          0.9946666666666667,
+          0.868,
+          0.8566666666666667,
+          0.9583333333333334,
+          0.953,
+          0.9353333333333333,
+          0.937,
+          0.9926666666666667,
+          0.994,
+          0.859
+        ],
+        "feasFull": [
+          0.8223333333333334,
+          0.8583333333333333,
+          0.893,
+          0.8803333333333333,
+          0.8666666666666667,
+          0.9823333333333333,
+          0.9946666666666667,
+          0.868,
+          0.8566666666666667,
+          0.9583333333333334,
+          0.953,
+          0.9353333333333333,
+          0.937,
+          0.9926666666666667,
+          0.994,
+          0.859
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4944.921043090001,
+          4853.446111195491,
+          5047.325803932924,
+          4850.673736928986,
+          5316.799348700666,
+          5607.681230278677,
+          5268.9842199113355,
+          4914.5165536427185,
+          5022.104953802364,
+          5559.8960656399,
+          5189.853600134665,
+          4958.624901672214,
+          5329.97520017263,
+          5242.2252041537295,
+          5826.334938419239,
+          5056.559674541198
+        ],
+        "muTAC": [
+          4871.715813358218,
+          4754.572551021234,
+          4949.362176398622,
+          4760.030344989284,
+          5233.476835761493,
+          5520.668310876438,
+          5190.199606643197,
+          4838.638716170945,
+          4945.965534880688,
+          5451.808571768556,
+          5109.575822249784,
+          4870.164708066729,
+          5253.634035451828,
+          5174.092758527465,
+          5760.847085260221,
+          4978.366035309368
+        ],
+        "penCVaR": [
+          50152.256682848725,
+          46028.33731965217,
+          36861.54318269779,
+          40221.15297079391,
+          40993.1228171504,
+          8832.372488480229,
+          5958.953338351099,
+          40834.77152017186,
+          43256.10899715116,
+          16459.214197503934,
+          18551.76924155355,
+          24602.577064527864,
+          23027.70826749052,
+          6248.137531221955,
+          6696.042072712076,
+          42444.84598972944
+        ]
+      },
+      "0.75": {
+        "feas": [
+          0.7256666666666667,
+          0.775,
+          0.817,
+          0.8003333333333333,
+          0.7893333333333333,
+          0.957,
+          0.986,
+          0.7883333333333333,
+          0.7726666666666666,
+          0.9116666666666666,
+          0.8953333333333333,
+          0.8756666666666667,
+          0.887,
+          0.9796666666666667,
+          0.9826666666666667,
+          0.7803333333333333
+        ],
+        "feasFull": [
+          0.7256666666666667,
+          0.775,
+          0.817,
+          0.8003333333333333,
+          0.7893333333333333,
+          0.957,
+          0.986,
+          0.7883333333333333,
+          0.7726666666666666,
+          0.9116666666666666,
+          0.8953333333333333,
+          0.8756666666666667,
+          0.887,
+          0.9796666666666667,
+          0.9826666666666667,
+          0.7803333333333333
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4955.384543401606,
+          4867.458140624783,
+          5059.491985434626,
+          4861.720319060914,
+          5327.03666411723,
+          5619.9957700856,
+          5280.648259281407,
+          4921.213517910317,
+          5030.635593279072,
+          5573.4364454886145,
+          5198.809992302561,
+          4970.988599812313,
+          5337.000718634965,
+          5251.771678417269,
+          5835.491252016644,
+          5065.17814676893
+        ],
+        "muTAC": [
+          4884.100740086688,
+          4771.362937675148,
+          4965.786312263987,
+          4775.258992143978,
+          5247.488024112976,
+          5535.301355029738,
+          5203.450856349988,
+          4849.827910638361,
+          4957.823218617071,
+          5468.997495733292,
+          5122.065631860212,
+          4885.208293035425,
+          5265.650583969882,
+          5185.582083340424,
+          5771.985166344566,
+          4990.496967412524
+        ],
+        "penCVaR": [
+          60815.39037664267,
+          57949.58994246617,
+          48254.91356328721,
+          51651.69544402937,
+          51454.86348448012,
+          14167.845035317023,
+          8023.892783965235,
+          51915.9026764497,
+          54316.19346525723,
+          26974.243469242596,
+          30112.9433443256,
+          36223.849300862865,
+          33198.05891111674,
+          8792.46956937531,
+          9041.347871534708,
+          53471.43513541396
+        ]
+      },
+      "1.0": {
+        "feas": [
+          0.6176666666666667,
+          0.6683333333333333,
+          0.7253333333333334,
+          0.7033333333333334,
+          0.685,
+          0.9313333333333333,
+          0.9706666666666667,
+          0.687,
+          0.6673333333333333,
+          0.8563333333333333,
+          0.8383333333333334,
+          0.8053333333333333,
+          0.8246666666666667,
+          0.9643333333333334,
+          0.9663333333333334,
+          0.6743333333333333
+        ],
+        "feasFull": [
+          0.6176666666666667,
+          0.6683333333333333,
+          0.7253333333333334,
+          0.7033333333333334,
+          0.685,
+          0.9313333333333333,
+          0.9706666666666667,
+          0.687,
+          0.6673333333333333,
+          0.8563333333333333,
+          0.8383333333333334,
+          0.8053333333333333,
+          0.8246666666666667,
+          0.9643333333333334,
+          0.9663333333333334,
+          0.6743333333333333
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          4962.487482901869,
+          4876.815919670062,
+          5067.489597329184,
+          4868.963681840175,
+          5333.7565600089465,
+          5628.295046246688,
+          5288.452002586849,
+          4925.320237732218,
+          5036.042189917239,
+          5582.135324701402,
+          5204.4856511008165,
+          4979.192781711137,
+          5341.345861141959,
+          5258.19797638304,
+          5841.5668543705315,
+          5070.639004849107
+        ],
+        "muTAC": [
+          4896.563879991647,
+          4788.325578956563,
+          4981.960277812667,
+          4790.197280117022,
+          5261.245709540906,
+          5550.296171648384,
+          5216.927176532741,
+          4861.994132081992,
+          4970.473024459621,
+          5487.22652798285,
+          5135.394550290422,
+          4900.306021238864,
+          5277.2591504070715,
+          5197.092984505913,
+          5783.164402247066,
+          5003.45610795362
+        ],
+        "penCVaR": [
+          66099.42153711262,
+          64305.62899011725,
+          54253.65171744721,
+          57676.51400430845,
+          56970.53374124617,
+          19710.85176004415,
+          9214.328173854183,
+          57577.2194923381,
+          60043.082085566224,
+          32438.98169923902,
+          35785.07891025388,
+          42172.27515311052,
+          38347.096738788736,
+          10021.359767817039,
+          10161.509329016442,
+          59051.588367206685
+        ]
+      }
+    },
+    "WDRO": {
+      "0.0": {
+        "feas": [
+          1.0,
+          0.9666666666666667,
+          0.972,
+          0.971,
+          1.0,
+          0.9963333333333333,
+          1.0,
+          0.9676666666666667,
+          0.964,
+          0.993,
+          1.0,
+          0.9893333333333333,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "feasFull": [
+          1.0,
+          0.9666666666666667,
+          0.972,
+          0.971,
+          1.0,
+          0.9963333333333333,
+          1.0,
+          0.9676666666666667,
+          0.964,
+          0.993,
+          1.0,
+          0.9893333333333333,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          5899.328820068468,
+          5152.770021832995,
+          5521.658831920896,
+          4958.327844402331,
+          5510.321027675701,
+          5198.450188764219,
+          5735.921131695296,
+          4971.270744341233,
+          4970.326611136548,
+          5065.400045907538,
+          5874.188681486535,
+          4969.260842877537,
+          5876.734694044918,
+          5882.03908796382,
+          6011.903185677985,
+          5700.613508361434
+        ],
+        "muTAC": [
+          5784.071987322159,
+          4992.937570235683,
+          5377.256418812041,
+          4862.842958448087,
+          5429.286582866516,
+          5097.858330168387,
+          5650.41902147576,
+          4861.839637379892,
+          4868.138507538891,
+          4961.3642027451,
+          5772.957244155854,
+          4867.764534781336,
+          5750.1901644665495,
+          5766.05467287228,
+          5882.524762355576,
+          5576.126270026052
+        ],
+        "penCVaR": [
+          5899.328820068468,
+          17277.84596272066,
+          14204.772573247248,
+          14467.070789612588,
+          5510.321027675701,
+          5961.628632710662,
+          5735.921131695296,
+          16321.413887127632,
+          17079.415685950982,
+          6964.1182961888035,
+          5874.188681486535,
+          8322.911602950986,
+          5876.734694044918,
+          5882.03908796382,
+          6011.903185677985,
+          5700.613508361434
+        ]
+      },
+      "0.25": {
+        "feas": [
+          1.0,
+          0.914,
+          0.9276666666666666,
+          0.9243333333333333,
+          0.9986666666666667,
+          0.989,
+          1.0,
+          0.9163333333333333,
+          0.9126666666666666,
+          0.9783333333333334,
+          1.0,
+          0.9666666666666667,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "feasFull": [
+          1.0,
+          0.914,
+          0.9276666666666666,
+          0.9243333333333333,
+          0.9986666666666667,
+          0.989,
+          1.0,
+          0.9163333333333333,
+          0.9126666666666666,
+          0.9783333333333334,
+          1.0,
+          0.9666666666666667,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          5917.090925897353,
+          5180.013885218497,
+          5547.08986195974,
+          4972.088313791693,
+          5519.849285574696,
+          5215.498775218677,
+          5749.916127195241,
+          4986.472593791852,
+          4985.019330333875,
+          5083.393409524253,
+          5890.118244581583,
+          4987.149070960565,
+          5899.167471478493,
+          5902.44981207574,
+          6031.593524437619,
+          5721.238174212075
+        ],
+        "muTAC": [
+          5801.835428123927,
+          5018.446529215604,
+          5400.584611654169,
+          4877.349969632882,
+          5441.026392913966,
+          5113.965735398398,
+          5663.886932715818,
+          4878.282036876695,
+          4883.653644061655,
+          4978.09991686309,
+          5788.633435999588,
+          4884.1570410889035,
+          5770.464773239173,
+          5784.600669017888,
+          5902.6712490521595,
+          5595.763999336024
+        ],
+        "penCVaR": [
+          5917.090925897353,
+          35879.198433265825,
+          29439.685721861373,
+          30805.90284490393,
+          5703.813334666609,
+          7991.743532955007,
+          5749.916127195241,
+          33947.11763835472,
+          34937.18244674926,
+          11499.023700910697,
+          5890.118244581583,
+          16109.646072101978,
+          5899.167471478493,
+          5902.44981207574,
+          6031.593524437619,
+          5721.238174212075
+        ]
+      },
+      "0.5": {
+        "feas": [
+          1.0,
+          0.8556666666666667,
+          0.8816666666666667,
+          0.8733333333333333,
+          0.9983333333333333,
+          0.9786666666666667,
+          1.0,
+          0.861,
+          0.8546666666666667,
+          0.9586666666666667,
+          1.0,
+          0.936,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "feasFull": [
+          1.0,
+          0.8556666666666667,
+          0.8816666666666667,
+          0.8733333333333333,
+          0.9983333333333333,
+          0.9786666666666667,
+          1.0,
+          0.861,
+          0.8546666666666667,
+          0.9586666666666667,
+          1.0,
+          0.936,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          5924.25936411773,
+          5191.003497371505,
+          5557.711278190718,
+          4977.7780841764,
+          5525.418646238147,
+          5223.470428393691,
+          5755.4826608796675,
+          4992.826955880755,
+          4991.0996387189225,
+          5091.395452372512,
+          5896.5126013516565,
+          4994.585063187768,
+          5908.540616787068,
+          5910.93707736732,
+          6041.973208878732,
+          5729.48468629973
+        ],
+        "muTAC": [
+          5822.005296949979,
+          5047.253333946274,
+          5426.832672162363,
+          4893.802593405957,
+          5454.069271377458,
+          5132.042321274244,
+          5679.118363201383,
+          4896.945436278504,
+          4901.250501757849,
+          4996.907726786647,
+          5806.425087883979,
+          4902.606833440628,
+          5793.386441971675,
+          5805.571348923005,
+          5925.169787538873,
+          5617.98551349844
+        ],
+        "penCVaR": [
+          5924.25936411773,
+          46213.37487759503,
+          38493.04716784776,
+          40298.61059369825,
+          5622.506120028091,
+          9191.348349404465,
+          5755.4826608796675,
+          43599.81264743738,
+          44454.51219255691,
+          16198.825378789474,
+          5896.5126013516565,
+          24846.360614903853,
+          5908.540616787068,
+          5910.93707736732,
+          6041.973208878732,
+          5729.48468629973
+        ]
+      },
+      "0.75": {
+        "feas": [
+          1.0,
+          0.7716666666666666,
+          0.7983333333333333,
+          0.7946666666666666,
+          0.995,
+          0.952,
+          1.0,
+          0.7773333333333333,
+          0.77,
+          0.9126666666666666,
+          1.0,
+          0.8746666666666667,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "feasFull": [
+          1.0,
+          0.7716666666666666,
+          0.7983333333333333,
+          0.7946666666666666,
+          0.995,
+          0.952,
+          1.0,
+          0.7773333333333333,
+          0.77,
+          0.9126666666666666,
+          1.0,
+          0.8746666666666667,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          5937.453690160112,
+          5211.029228177958,
+          5576.31820303587,
+          4987.919170484009,
+          5532.091667229868,
+          5236.066605243568,
+          5765.7655654259115,
+          5003.957672602877,
+          5001.926109400303,
+          5104.723362666445,
+          5908.325622795999,
+          5007.661372412679,
+          5924.971269800213,
+          5926.370843605838,
+          6056.188859358792,
+          5744.6686931728045
+        ],
+        "muTAC": [
+          5838.489735047596,
+          5071.181547725128,
+          5448.999620441448,
+          4907.128688296871,
+          5465.731636639735,
+          5147.562735771239,
+          5691.6521490607265,
+          4912.005663016423,
+          4915.500078375948,
+          5012.950881230873,
+          5821.017157315223,
+          4918.171694153626,
+          5812.81365417218,
+          5823.122317689811,
+          5944.829227332244,
+          5636.323815915845
+        ],
+        "penCVaR": [
+          5937.453690160112,
+          58215.76570018675,
+          49459.56346094129,
+          51610.05290614033,
+          6489.834751072462,
+          14641.985057238637,
+          5765.7655654259115,
+          55027.805129444685,
+          55779.39686639464,
+          27172.23549949711,
+          5908.325622795999,
+          36676.30802650515,
+          5924.971269800213,
+          5926.370843605838,
+          6056.188859358792,
+          5744.6686931728045
+        ]
+      },
+      "1.0": {
+        "feas": [
+          1.0,
+          0.6636666666666666,
+          0.7046666666666667,
+          0.6966666666666667,
+          0.9923333333333333,
+          0.925,
+          1.0,
+          0.6716666666666666,
+          0.664,
+          0.8573333333333333,
+          1.0,
+          0.805,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "feasFull": [
+          1.0,
+          0.6636666666666666,
+          0.7046666666666667,
+          0.6966666666666667,
+          0.9923333333333333,
+          0.925,
+          1.0,
+          0.6716666666666666,
+          0.664,
+          0.8573333333333333,
+          1.0,
+          0.805,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vViol": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cvarTAC": [
+          5945.991153635307,
+          5224.435823973941,
+          5588.8281727190615,
+          4994.369730626092,
+          5536.283047782053,
+          5244.410168439749,
+          5772.5208375487155,
+          5011.016496778106,
+          5008.81065631802,
+          5113.5861870444305,
+          5915.997240256005,
+          5016.4674782626125,
+          5936.0251937253,
+          5937.037614731528,
+          6065.512317217639,
+          5754.72908239009
+        ],
+        "muTAC": [
+          5855.848907156213,
+          5095.915838877263,
+          5471.5161849805145,
+          4921.243805541381,
+          5476.889783508808,
+          5163.086859025194,
+          5704.7229954985805,
+          4928.0219636221655,
+          4930.597077685732,
+          5029.106625383719,
+          5836.352731557988,
+          4934.001659074512,
+          5832.60125710957,
+          5841.286654750839,
+          5964.097739101082,
+          5655.431543790263
+        ],
+        "penCVaR": [
+          5945.991153635307,
+          64545.84031719509,
+          55103.283453524826,
+          57446.92889716865,
+          6128.730623768259,
+          21796.4719864024,
+          5772.5208375487155,
+          60929.95675596462,
+          61636.50070081044,
+          33021.97551054142,
+          5915.997240256005,
+          42875.537665312964,
+          5936.0251937253,
+          5937.037614731528,
+          6065.512317217639,
+          5754.72908239009
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "NOMINAL": {
+      "0.0": {
+        "feas": 0.528,
+        "feas_ci": [
+          0.528,
+          0.528
+        ],
+        "feasFull": 0.528,
+        "feasFull_ci": [
+          0.528,
+          0.528
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 4417.611407764678,
+        "cvarTAC_ci": [
+          4417.611407764678,
+          4417.611407764678
+        ],
+        "penCVaR": 105309.43941363697
+      },
+      "0.25": {
+        "feas": 0.42866666666666664,
+        "feas_ci": [
+          0.42866666666666664,
+          0.42866666666666664
+        ],
+        "feasFull": 0.42866666666666664,
+        "feasFull_ci": [
+          0.42866666666666664,
+          0.42866666666666664
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 4428.56031349876,
+        "cvarTAC_ci": [
+          4428.56031349876,
+          4428.56031349876
+        ],
+        "penCVaR": 123117.66408875932
+      },
+      "0.5": {
+        "feas": 0.326,
+        "feas_ci": [
+          0.326,
+          0.326
+        ],
+        "feasFull": 0.326,
+        "feasFull_ci": [
+          0.326,
+          0.326
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 4433.034743006283,
+        "cvarTAC_ci": [
+          4433.034743006283,
+          4433.034743006283
+        ],
+        "penCVaR": 131724.14119238133
+      },
+      "0.75": {
+        "feas": 0.23766666666666666,
+        "feas_ci": [
+          0.23766666666666666,
+          0.23766666666666666
+        ],
+        "feasFull": 0.23766666666666666,
+        "feasFull_ci": [
+          0.23766666666666666,
+          0.23766666666666666
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 4441.025639014632,
+        "cvarTAC_ci": [
+          4441.025639014632,
+          4441.025639014632
+        ],
+        "penCVaR": 141962.20546329196
+      },
+      "1.0": {
+        "feas": 0.184,
+        "feas_ci": [
+          0.184,
+          0.184
+        ],
+        "feasFull": 0.184,
+        "feasFull_ci": [
+          0.184,
+          0.184
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 4446.423370898746,
+        "cvarTAC_ci": [
+          4446.423370898746,
+          4446.423370898746
+        ],
+        "penCVaR": 147624.2823485442
+      }
+    },
+    "SAA": {
+      "0.0": {
+        "feas": 0.9800416666666667,
+        "feas_ci": [
+          0.9728942708333334,
+          0.9872921875
+        ],
+        "feasFull": 0.9800416666666667,
+        "feasFull_ci": [
+          0.9728942708333334,
+          0.9872921875
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5116.264240128032,
+        "cvarTAC_ci": [
+          5024.68706928456,
+          5217.070004362905
+        ],
+        "penCVaR": 11831.630556142736
+      },
+      "0.25": {
+        "feas": 0.9481875,
+        "feas_ci": [
+          0.9317916666666667,
+          0.9652713541666667
+        ],
+        "feasFull": 0.9481875,
+        "feasFull_ci": [
+          0.9317916666666667,
+          0.9652713541666667
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5133.154789541697,
+        "cvarTAC_ci": [
+          5041.666145879216,
+          5234.481168013894
+        ],
+        "penCVaR": 22624.815351875393
+      },
+      "0.5": {
+        "feas": 0.9119166666666667,
+        "feas_ci": [
+          0.884684375,
+          0.9404171875
+        ],
+        "feasFull": 0.9119166666666667,
+        "feasFull_ci": [
+          0.884684375,
+          0.9404171875
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5140.595137805521,
+        "cvarTAC_ci": [
+          5048.895466419083,
+          5241.980279114115
+        ],
+        "penCVaR": 29253.967868936903
+      },
+      "0.75": {
+        "feas": 0.8517083333333333,
+        "feas_ci": [
+          0.8110369791666666,
+          0.8948348958333333
+        ],
+        "feasFull": 0.8517083333333333,
+        "feasFull_ci": [
+          0.8110369791666666,
+          0.8948348958333333
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5152.924424908426,
+        "cvarTAC_ci": [
+          5061.131040029981,
+          5254.060670381738
+        ],
+        "penCVaR": 38704.571140178974
+      },
+      "1.0": {
+        "feas": 0.7786041666666665,
+        "feas_ci": [
+          0.7216416666666666,
+          0.8393776041666666
+        ],
+        "feasFull": 0.7786041666666665,
+        "feasFull_ci": [
+          0.7216416666666666,
+          0.8393776041666666
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5161.013143772509,
+        "cvarTAC_ci": [
+          5068.847581718875,
+          5261.700768967976
+        ],
+        "penCVaR": 43813.1686548463
+      }
+    },
+    "CVAR": {
+      "0.0": {
+        "feas": 0.979625,
+        "feas_ci": [
+          0.9720619791666667,
+          0.9871682291666667
+        ],
+        "feasFull": 0.979625,
+        "feasFull_ci": [
+          0.9720619791666667,
+          0.9871682291666667
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5091.734848393614,
+        "cvarTAC_ci": [
+          4959.965221079688,
+          5243.628345925166
+        ],
+        "penCVaR": 11754.828685329634
+      },
+      "0.25": {
+        "feas": 0.949125,
+        "feas_ci": [
+          0.9328958333333334,
+          0.9660229166666666
+        ],
+        "feasFull": 0.949125,
+        "feasFull_ci": [
+          0.9328958333333334,
+          0.9660229166666666
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5106.388120187186,
+        "cvarTAC_ci": [
+          4974.140124079612,
+          5259.161308059003
+        ],
+        "penCVaR": 22249.265570437936
+      },
+      "0.5": {
+        "feas": 0.9142708333333334,
+        "feas_ci": [
+          0.8876223958333334,
+          0.9419796875
+        ],
+        "feasFull": 0.9142708333333334,
+        "feasFull_ci": [
+          0.8876223958333334,
+          0.9419796875
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5113.247434952691,
+        "cvarTAC_ci": [
+          4980.905514071446,
+          5266.275642310386
+        ],
+        "penCVaR": 28583.94047131903
+      },
+      "0.75": {
+        "feas": 0.855125,
+        "feas_ci": [
+          0.8155802083333333,
+          0.8969182291666666
+        ],
+        "feasFull": 0.855125,
+        "feasFull_ci": [
+          0.8155802083333333,
+          0.8969182291666666
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5124.001393622537,
+        "cvarTAC_ci": [
+          4991.184895371876,
+          5277.832005555279
+        ],
+        "penCVaR": 37794.88258077021
+      },
+      "1.0": {
+        "feas": 0.7836041666666667,
+        "feas_ci": [
+          0.7293437500000001,
+          0.8421588541666665
+        ],
+        "feasFull": 0.7836041666666667,
+        "feasFull_ci": [
+          0.7293437500000001,
+          0.8421588541666665
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5131.077406167349,
+        "cvarTAC_ci": [
+          4997.884990273296,
+          5285.35854424904
+        ],
+        "penCVaR": 42965.633164762556
+      }
+    },
+    "WCMAX": {
+      "0.0": {
+        "feas": 0.9802708333333333,
+        "feas_ci": [
+          0.972875,
+          0.9875833333333333
+        ],
+        "feasFull": 0.9802708333333333,
+        "feasFull_ci": [
+          0.972875,
+          0.9875833333333333
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5166.10028329793,
+        "cvarTAC_ci": [
+          5036.9448065161505,
+          5307.952260139069
+        ],
+        "penCVaR": 11647.924398550425
+      },
+      "0.25": {
+        "feas": 0.9499375000000001,
+        "feas_ci": [
+          0.9337494791666667,
+          0.9668125
+        ],
+        "feasFull": 0.9499375000000001,
+        "feasFull_ci": [
+          0.9337494791666667,
+          0.9668125
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5180.296693118879,
+        "cvarTAC_ci": [
+          5051.534797645578,
+          5322.216812852757
+        ],
+        "penCVaR": 21970.2502171764
+      },
+      "0.5": {
+        "feas": 0.9157291666666667,
+        "feas_ci": [
+          0.8888947916666666,
+          0.9435
+        ],
+        "feasFull": 0.9157291666666667,
+        "feasFull_ci": [
+          0.8888947916666666,
+          0.9435
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5186.870161638546,
+        "cvarTAC_ci": [
+          5058.125183916555,
+          5328.7102065327335
+        ],
+        "penCVaR": 28198.057105127293
+      },
+      "0.75": {
+        "feas": 0.8577291666666667,
+        "feas_ci": [
+          0.8182697916666667,
+          0.8992302083333332
+        ],
+        "feasFull": 0.8577291666666667,
+        "feasFull_ci": [
+          0.8182697916666667,
+          0.8992302083333332
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5197.266351664803,
+        "cvarTAC_ci": [
+          5068.2134208389825,
+          5338.635338102654
+        ],
+        "penCVaR": 37272.78964836041
+      },
+      "1.0": {
+        "feas": 0.7866041666666667,
+        "feas_ci": [
+          0.7311416666666667,
+          0.8454015625
+        ],
+        "feasFull": 0.7866041666666667,
+        "feasFull_ci": [
+          0.7311416666666667,
+          0.8454015625
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5204.074135780702,
+        "cvarTAC_ci": [
+          5074.91922118456,
+          5345.434616577223
+        ],
+        "penCVaR": 42114.32009171667
+      }
+    },
+    "WDRO": {
+      "0.0": {
+        "feas": 0.98875,
+        "feas_ci": [
+          0.9815208333333334,
+          0.9955635416666666
+        ],
+        "feasFull": 0.98875,
+        "feasFull_ci": [
+          0.9815208333333334,
+          0.9955635416666666
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5456.157204259841,
+        "cvarTAC_ci": [
+          5267.111265491366,
+          5649.476327434398
+        ],
+        "penCVaR": 9193.139222967733
+      },
+      "0.25": {
+        "feas": 0.9704791666666667,
+        "feas_ci": [
+          0.9522078125,
+          0.9878338541666667
+        ],
+        "feasFull": 0.9704791666666667,
+        "feasFull_ci": [
+          0.9522078125,
+          0.9878338541666667
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5474.259300390747,
+        "cvarTAC_ci": [
+          5284.57474124094,
+          5667.72876253277
+        ],
+        "penCVaR": 15464.05550035297
+      },
+      "0.5": {
+        "feas": 0.949875,
+        "feas_ci": [
+          0.9197286458333334,
+          0.9789807291666666
+        ],
+        "feasFull": 0.949875,
+        "feasFull_ci": [
+          0.9197286458333334,
+          0.9789807291666666
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5482.02995376327,
+        "cvarTAC_ci": [
+          5292.17024492591,
+          5675.402033600904
+        ],
+        "penCVaR": 19380.349259871444
+      },
+      "0.75": {
+        "feas": 0.9153958333333334,
+        "feas_ci": [
+          0.866665625,
+          0.9624854166666665
+        ],
+        "feasFull": 0.9153958333333334,
+        "feasFull_ci": [
+          0.866665625,
+          0.9624854166666665
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5495.339870973328,
+        "cvarTAC_ci": [
+          5304.840121086463,
+          5689.0386699165365
+        ],
+        "penCVaR": 24771.043246358797
+      },
+      "1.0": {
+        "feas": 0.8737708333333334,
+        "feas_ci": [
+          0.8024145833333334,
+          0.9433333333333334
+        ],
+        "feasFull": 0.8737708333333334,
+        "feasFull_ci": [
+          0.8024145833333334,
+          0.9433333333333334
+        ],
+        "vViol": 0.0,
+        "cvarTAC": 5504.126325090541,
+        "cvarTAC_ci": [
+          5313.1682224945625,
+          5698.4511807120825
+        ],
+        "penCVaR": 27800.81495938708
+      }
+    }
+  },
+  "gate": {
+    "dfeas_mean": 0.06560416666666667,
+    "dfeas_ci": [
+      0.021781944444444458,
+      0.11480034722222213
+    ],
+    "wilcoxon_feas_p": 0.007685794055213263,
+    "cliffs_delta_feas": 0.44140625,
+    "dcvarTAC_mean": 342.3211477802279,
+    "dcvarTAC_ci": [
+      161.35783475026375,
+      532.3467727466314
+    ],
+    "dcvarTAC_rel": 6.645063055899804,
+    "wilcoxon_cost_p": 0.007685794055213263
+  },
+  "gate_cvar": {
+    "dfeas_mean": 0.06201388888888886,
+    "dfeas_ci": [
+      0.018651041666666618,
+      0.11133437499999996
+    ],
+    "wilcoxon_feas_p": 0.065399169921875,
+    "cliffs_delta_feas": 0.3828125,
+    "dcvarTAC_mean": 371.05663836152115,
+    "dcvarTAC_ci": [
+      184.3903126635653,
+      568.5156910500634
+    ],
+    "dcvarTAC_rel": 7.243273588037607,
+    "wilcoxon_cost_p": 0.004180908203125
+  },
+  "desc_cvar_saa": {
+    "dfeas_mean": 0.0035902777777778103,
+    "dfeas_ci": [
+      -0.0005555555555555325,
+      0.008055555555555607
+    ],
+    "dcvarTAC_mean": -28.735490581293277,
+    "dcvarTAC_ci": [
+      -127.63099251898987,
+      68.36149313104565
+    ],
+    "dcvarTAC_rel": -0.557807041992916
+  }
+}
