@@ -1,0 +1,624 @@
+{
+  "Case1": {
+    "A_exact_vs_grid": {
+      "SAA_rho0.05": {
+        "grid": 21292.808386461988,
+        "exact": 21204.11010313477,
+        "rel_gap": 0.004183070305511333,
+        "lam_star": 19078.09289928712,
+        "cert_gap": 0.0
+      },
+      "SAA_rho0.4": {
+        "grid": 28366.97183148786,
+        "exact": 27079.45094451527,
+        "rel_gap": 0.04754604846348879,
+        "lam_star": 15625.353808341548,
+        "cert_gap": 3.637978807091713e-12
+      },
+      "SAA_rho0_identity": {
+        "wdro0": 20250.205457837612,
+        "saa": 20250.205457837612,
+        "rel": 0.0
+      },
+      "WDRO_rho0.05": {
+        "grid": 21292.808386461988,
+        "exact": 21204.11010313477,
+        "rel_gap": 0.004183070305511333,
+        "lam_star": 19078.09289928712,
+        "cert_gap": 0.0
+      },
+      "WDRO_rho0.4": {
+        "grid": 28366.97183148786,
+        "exact": 27079.45094451527,
+        "rel_gap": 0.04754604846348879,
+        "lam_star": 15625.353808341548,
+        "cert_gap": 3.637978807091713e-12
+      },
+      "WDRO_rho0_identity": {
+        "wdro0": 20250.205457837612,
+        "saa": 20250.205457837612,
+        "rel": 0.0
+      }
+    },
+    "B_core_vs_full": {
+      "NOM": {
+        "k0": {
+          "feas": 0.71375,
+          "feasFull": 0.71375,
+          "vviol": 0.0,
+          "cvarTAC": 20757.136864541168
+        },
+        "k1": {
+          "feas": 0.22125,
+          "feasFull": 0.22125,
+          "vviol": 0.0,
+          "cvarTAC": 20844.13329972181
+        }
+      },
+      "SAA": {
+        "k0": {
+          "feas": 0.8975,
+          "feasFull": 0.8975,
+          "vviol": 0.0,
+          "cvarTAC": 20183.813162586164
+        },
+        "k1": {
+          "feas": 0.45,
+          "feasFull": 0.45,
+          "vviol": 0.0,
+          "cvarTAC": 20263.243022410938
+        }
+      },
+      "CVAR": {
+        "k0": {
+          "feas": 0.95,
+          "feasFull": 0.95,
+          "vviol": 0.0,
+          "cvarTAC": 21752.925672927715
+        },
+        "k1": {
+          "feas": 0.5525,
+          "feasFull": 0.5525,
+          "vviol": 0.0,
+          "cvarTAC": 21857.793026348816
+        }
+      },
+      "WCMAX": {
+        "k0": {
+          "feas": 0.95,
+          "feasFull": 0.95,
+          "vviol": 0.0,
+          "cvarTAC": 21752.925672927715
+        },
+        "k1": {
+          "feas": 0.5525,
+          "feasFull": 0.5525,
+          "vviol": 0.0,
+          "cvarTAC": 21857.793026348816
+        }
+      },
+      "WDRO": {
+        "k0": {
+          "feas": 0.8975,
+          "feasFull": 0.8975,
+          "vviol": 0.0,
+          "cvarTAC": 20183.813162586164
+        },
+        "k1": {
+          "feas": 0.45,
+          "feasFull": 0.45,
+          "vviol": 0.0,
+          "cvarTAC": 20263.243022410938
+        }
+      }
+    },
+    "C_audit_model_impact": {
+      "NOM": {
+        "corrected": 0.346875,
+        "legacy": 0.346875,
+        "delta_pp": 0.0,
+        "k0_corrected": 0.71375,
+        "k0_legacy": 0.71375,
+        "k0_delta_pp": 0.0
+      },
+      "SAA": {
+        "corrected": 0.58125,
+        "legacy": 0.58125,
+        "delta_pp": 0.0,
+        "k0_corrected": 0.8975,
+        "k0_legacy": 0.8975,
+        "k0_delta_pp": 0.0
+      },
+      "WDRO": {
+        "corrected": 0.58125,
+        "legacy": 0.58125,
+        "delta_pp": 0.0,
+        "k0_corrected": 0.8975,
+        "k0_legacy": 0.8975,
+        "k0_delta_pp": 0.0
+      }
+    },
+    "F_regime_feas": {
+      "NOM": 0.346875,
+      "SAA": 0.58125,
+      "CVAR": 0.6856249999999999,
+      "WCMAX": 0.6856249999999999,
+      "WDRO": 0.58125
+    }
+  },
+  "Case2": {
+    "A_exact_vs_grid": {
+      "SAA_rho0.05": {
+        "grid": 14008.651397268079,
+        "exact": 13942.479605990946,
+        "rel_gap": 0.004746056164120149,
+        "lam_star": 12093.692524874583,
+        "cert_gap": 0.0
+      },
+      "SAA_rho0.4": {
+        "grid": 18403.491108637314,
+        "exact": 17661.550794005325,
+        "rel_gap": 0.04200878639059364,
+        "lam_star": 9892.17752697412,
+        "cert_gap": 0.0
+      },
+      "SAA_rho0_identity": {
+        "wdro0": 13337.794979528122,
+        "saa": 13337.794979528122,
+        "rel": 0.0
+      },
+      "WDRO_rho0.05": {
+        "grid": 14008.651397268079,
+        "exact": 13942.479605990946,
+        "rel_gap": 0.004746056164120149,
+        "lam_star": 12093.692524874583,
+        "cert_gap": 0.0
+      },
+      "WDRO_rho0.4": {
+        "grid": 18403.491108637314,
+        "exact": 17661.550794005325,
+        "rel_gap": 0.04200878639059364,
+        "lam_star": 9892.17752697412,
+        "cert_gap": 0.0
+      },
+      "WDRO_rho0_identity": {
+        "wdro0": 13337.794979528122,
+        "saa": 13337.794979528122,
+        "rel": 0.0
+      }
+    },
+    "B_core_vs_full": {
+      "NOM": {
+        "k0": {
+          "feas": 0.71125,
+          "feasFull": 0.71125,
+          "vviol": 0.0,
+          "cvarTAC": 12735.71116762385
+        },
+        "k1": {
+          "feas": 0.4025,
+          "feasFull": 0.4025,
+          "vviol": 0.0,
+          "cvarTAC": 12746.387280313804
+        }
+      },
+      "SAA": {
+        "k0": {
+          "feas": 0.98,
+          "feasFull": 0.98,
+          "vviol": 0.0,
+          "cvarTAC": 13551.231629287882
+        },
+        "k1": {
+          "feas": 0.89625,
+          "feasFull": 0.89625,
+          "vviol": 0.0,
+          "cvarTAC": 13565.004905162403
+        }
+      },
+      "CVAR": {
+        "k0": {
+          "feas": 0.97625,
+          "feasFull": 0.97625,
+          "vviol": 0.0,
+          "cvarTAC": 15385.375333871343
+        },
+        "k1": {
+          "feas": 0.84375,
+          "feasFull": 0.84375,
+          "vviol": 0.0,
+          "cvarTAC": 15394.755958533675
+        }
+      },
+      "WCMAX": {
+        "k0": {
+          "feas": 0.98125,
+          "feasFull": 0.98125,
+          "vviol": 0.0,
+          "cvarTAC": 15761.431833544082
+        },
+        "k1": {
+          "feas": 0.85875,
+          "feasFull": 0.85875,
+          "vviol": 0.0,
+          "cvarTAC": 15787.502365027973
+        }
+      },
+      "WDRO": {
+        "k0": {
+          "feas": 0.98,
+          "feasFull": 0.98,
+          "vviol": 0.0,
+          "cvarTAC": 13551.231629287882
+        },
+        "k1": {
+          "feas": 0.89625,
+          "feasFull": 0.89625,
+          "vviol": 0.0,
+          "cvarTAC": 13565.004905162403
+        }
+      }
+    },
+    "C_audit_model_impact": {
+      "NOM": {
+        "corrected": 0.49875,
+        "legacy": 0.49875,
+        "delta_pp": 0.0,
+        "k0_corrected": 0.71125,
+        "k0_legacy": 0.71125,
+        "k0_delta_pp": 0.0
+      },
+      "SAA": {
+        "corrected": 0.9199999999999999,
+        "legacy": 0.9199999999999999,
+        "delta_pp": 0.0,
+        "k0_corrected": 0.98,
+        "k0_legacy": 0.98,
+        "k0_delta_pp": 0.0
+      },
+      "WDRO": {
+        "corrected": 0.9199999999999999,
+        "legacy": 0.9199999999999999,
+        "delta_pp": 0.0,
+        "k0_corrected": 0.98,
+        "k0_legacy": 0.98,
+        "k0_delta_pp": 0.0
+      }
+    },
+    "F_regime_feas": {
+      "NOM": 0.49875,
+      "SAA": 0.9199999999999999,
+      "CVAR": 0.8875,
+      "WCMAX": 0.8968750000000001,
+      "WDRO": 0.9199999999999999
+    }
+  },
+  "Case3": {
+    "A_exact_vs_grid": {
+      "SAA_rho0.05": {
+        "grid": 12154.285602605287,
+        "exact": 11718.981608668315,
+        "rel_gap": 0.037145206680330105,
+        "lam_star": 99388.20140765607,
+        "cert_gap": 0.0
+      },
+      "SAA_rho0.4": {
+        "grid": 39550.15364178649,
+        "exact": 39148.812595879936,
+        "rel_gap": 0.010251678640919849,
+        "lam_star": 74011.86756316572,
+        "cert_gap": 0.0
+      },
+      "SAA_rho0_identity": {
+        "wdro0": 6749.571538175519,
+        "saa": 6749.571538175519,
+        "rel": 0.0
+      },
+      "WDRO_rho0.05": {
+        "grid": 12380.086728275963,
+        "exact": 12343.360660487328,
+        "rel_gap": 0.0029753702252418193,
+        "lam_star": 12682.606995137408,
+        "cert_gap": 0.0
+      },
+      "WDRO_rho0.4": {
+        "grid": 17076.081652455654,
+        "exact": 16249.931943351461,
+        "rel_gap": 0.05084019502261398,
+        "lam_star": 10388.654427829199,
+        "cert_gap": 0.0
+      },
+      "WDRO_rho0_identity": {
+        "wdro0": 11709.230310536006,
+        "saa": 11709.230310536006,
+        "rel": 0.0
+      }
+    },
+    "B_core_vs_full": {
+      "NOM": {
+        "k0": {
+          "feas": 0.59875,
+          "feasFull": 0.59875,
+          "vviol": 0.0,
+          "cvarTAC": 4928.773269415459
+        },
+        "k1": {
+          "feas": 0.74875,
+          "feasFull": 0.74875,
+          "vviol": 0.0,
+          "cvarTAC": 4963.742336060351
+        }
+      },
+      "SAA": {
+        "k0": {
+          "feas": 0.92875,
+          "feasFull": 0.92875,
+          "vviol": 0.0,
+          "cvarTAC": 6885.799371965823
+        },
+        "k1": {
+          "feas": 0.95875,
+          "feasFull": 0.95875,
+          "vviol": 0.0,
+          "cvarTAC": 6944.728584692622
+        }
+      },
+      "CVAR": {
+        "k0": {
+          "feas": 0.9475,
+          "feasFull": 0.9475,
+          "vviol": 0.0,
+          "cvarTAC": 7242.292177962704
+        },
+        "k1": {
+          "feas": 0.9675,
+          "feasFull": 0.9675,
+          "vviol": 0.0,
+          "cvarTAC": 7328.044873576795
+        }
+      },
+      "WCMAX": {
+        "k0": {
+          "feas": 0.9625,
+          "feasFull": 0.9625,
+          "vviol": 0.0,
+          "cvarTAC": 7060.51462742477
+        },
+        "k1": {
+          "feas": 0.97875,
+          "feasFull": 0.97875,
+          "vviol": 0.0,
+          "cvarTAC": 7129.229257358032
+        }
+      },
+      "WDRO": {
+        "k0": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 11821.34772822182
+        },
+        "k1": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 11879.03735295459
+        }
+      }
+    },
+    "C_audit_model_impact": {
+      "NOM": {
+        "corrected": 0.6950000000000001,
+        "legacy": 0.6950000000000001,
+        "delta_pp": 0.0,
+        "k0_corrected": 0.59875,
+        "k0_legacy": 0.59875,
+        "k0_delta_pp": 0.0
+      },
+      "SAA": {
+        "corrected": 0.936875,
+        "legacy": 0.936875,
+        "delta_pp": 0.0,
+        "k0_corrected": 0.92875,
+        "k0_legacy": 0.92875,
+        "k0_delta_pp": 0.0
+      },
+      "WDRO": {
+        "corrected": 1.0,
+        "legacy": 1.0,
+        "delta_pp": 0.0,
+        "k0_corrected": 1.0,
+        "k0_legacy": 1.0,
+        "k0_delta_pp": 0.0
+      }
+    },
+    "E_smooth_c3": {
+      "NOM": {
+        "base_k0": 0.59875,
+        "base_k1": 0.74875,
+        "sm_k0": 0.59875,
+        "sm_k1": 0.7475
+      },
+      "SAA": {
+        "base_k0": 0.92875,
+        "base_k1": 0.95875,
+        "sm_k0": 0.92875,
+        "sm_k1": 0.95875
+      },
+      "WDRO": {
+        "base_k0": 1.0,
+        "base_k1": 1.0,
+        "sm_k0": 1.0,
+        "sm_k1": 1.0
+      }
+    },
+    "F_regime_feas": {
+      "NOM": 0.6950000000000001,
+      "SAA": 0.936875,
+      "CVAR": 0.948125,
+      "WCMAX": 0.961875,
+      "WDRO": 1.0
+    }
+  },
+  "Case4": {
+    "A_exact_vs_grid": {
+      "SAA_rho0.05": {
+        "grid": 7251.164437343031,
+        "exact": 7251.138871820456,
+        "rel_gap": 3.5257251345723917e-06,
+        "lam_star": 11.071920002728803,
+        "cert_gap": 0.0
+      },
+      "SAA_rho0.4": {
+        "grid": 7255.218568844923,
+        "exact": 7254.876366137393,
+        "rel_gap": 4.716864771488716e-05,
+        "lam_star": 10.21374895005738,
+        "cert_gap": 0.0
+      },
+      "SAA_rho0_identity": {
+        "wdro0": 7250.585275699904,
+        "saa": 7250.585275699904,
+        "rel": 0.0
+      },
+      "WDRO_rho0.05": {
+        "grid": 7251.164437343031,
+        "exact": 7251.138871820456,
+        "rel_gap": 3.5257251345723917e-06,
+        "lam_star": 11.071920002728803,
+        "cert_gap": 0.0
+      },
+      "WDRO_rho0.4": {
+        "grid": 7255.218568844923,
+        "exact": 7254.876366137393,
+        "rel_gap": 4.716864771488716e-05,
+        "lam_star": 10.21374895005738,
+        "cert_gap": 0.0
+      },
+      "WDRO_rho0_identity": {
+        "wdro0": 7250.585275699904,
+        "saa": 7250.585275699904,
+        "rel": 0.0
+      }
+    },
+    "B_core_vs_full": {
+      "NOM": {
+        "k0": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 6488.447914806001
+        },
+        "k1": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 6532.267976927408
+        }
+      },
+      "SAA": {
+        "k0": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 7285.837531173529
+        },
+        "k1": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 7303.659783312745
+        }
+      },
+      "CVAR": {
+        "k0": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 7285.837531173529
+        },
+        "k1": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 7303.659783312745
+        }
+      },
+      "WCMAX": {
+        "k0": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 7285.837531173529
+        },
+        "k1": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 7303.659783312745
+        }
+      },
+      "WDRO": {
+        "k0": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 7285.837531173529
+        },
+        "k1": {
+          "feas": 1.0,
+          "feasFull": 1.0,
+          "vviol": 0.0,
+          "cvarTAC": 7303.659783312745
+        }
+      }
+    },
+    "C_audit_model_impact": {
+      "NOM": {
+        "corrected": 1.0,
+        "legacy": 0.0,
+        "delta_pp": 100.0,
+        "k0_corrected": 1.0,
+        "k0_legacy": 0.0025,
+        "k0_delta_pp": 99.75
+      },
+      "SAA": {
+        "corrected": 1.0,
+        "legacy": 0.000625,
+        "delta_pp": 99.9375,
+        "k0_corrected": 1.0,
+        "k0_legacy": 0.005,
+        "k0_delta_pp": 99.5
+      },
+      "WDRO": {
+        "corrected": 1.0,
+        "legacy": 0.000625,
+        "delta_pp": 99.9375,
+        "k0_corrected": 1.0,
+        "k0_legacy": 0.005,
+        "k0_delta_pp": 99.5
+      }
+    },
+    "D_props_c4": {
+      "SAA": {
+        "base": 1.0,
+        "scenarioT": 1.0,
+        "const65": 1.0,
+        "const85": 1.0
+      },
+      "WDRO": {
+        "base": 1.0,
+        "scenarioT": 1.0,
+        "const65": 1.0,
+        "const85": 1.0
+      }
+    },
+    "F_regime_feas": {
+      "NOM": 1.0,
+      "SAA": 1.0,
+      "CVAR": 1.0,
+      "WCMAX": 1.0,
+      "WDRO": 1.0
+    }
+  }
+}
