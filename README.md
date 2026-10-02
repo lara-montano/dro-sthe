@@ -21,15 +21,15 @@ lower bound on the continuous worst case with no regularity assumptions.
 
 | Module | Paper section | Contents |
 |---|---|---|
-| `config_case_studies.py` | Sec. 5.1 | Case specifications (Caputo et al. 2008 benchmarks + glycerol service), design bounds, uncertainty bands, glycerol property correlations (Cheng 2008) |
-| `tube_diameters.py` | Sec. 5.1 | TEMA tube OD/ID lookup |
-| `sthe_model.py` | Sec. 2 + Supp. S1–S2 | Bell–Delaware + ε-NTU rating of a fixed design; audited coefficient tables; `smooth_regimes` and `props_of_T` sensitivity variants; `legacy_r1_model` A/B flag |
+| `config_case_studies.py` | Sec. 5.1–5.2 | Case specifications (Caputo et al. 2008 benchmarks + glycerol service), design bounds, uncertainty bands, glycerol property correlations (Cheng 2008) |
+| `tube_diameters.py` | Sec. 2 | TEMA tube OD/ID lookup |
+| `sthe_model.py` | Sec. 2 + Supp. S1–S3 | Bell–Delaware + ε-NTU rating of a fixed design; audited coefficient tables; `smooth_regimes` and `props_of_T` sensitivity variants; `legacy_r1_model` A/B flag |
 | `uncertainty_sampling.py` | Sec. 3 | i.i.d. training draws, deployment drift ladder |
-| `wdro_core.py` | Sec. 4.5 | Ground cost, penalized loss |
-| `wdro_discrete.py` | Sec. 4.5.4 | Candidate support, exact 1-D convex dual solve (`wdro_dual_discrete_exact`), densification diagnostics |
-| `optimization_objectives.py` | Sec. 4.1–4.6 | Nominal, SAA, percentile, empirical-CVaR, worst-case objectives |
-| `metaheuristics.py` | Sec. 4.7 | DE (and GWO/SBOA) with fixed-seed interface |
-| `evaluation_metrics.py` | Sec. 3.4 | Joint feasibility (core and full-operability), velocity-window rate, TAC mean/CVaR |
+| `wdro_core.py` | Sec. 4.1, 4.6 | Ground cost, penalized loss |
+| `wdro_discrete.py` | Sec. 4.6.4 | Candidate support, exact 1-D convex dual solve (`wdro_dual_discrete_exact`), densification diagnostics |
+| `optimization_objectives.py` | Sec. 4.2–4.6 | Nominal, SAA, percentile, empirical-CVaR, worst-case objectives |
+| `metaheuristics.py` | Sec. 4.8 | DE (and GWO/SBOA) with fixed-seed interface |
+| `evaluation_metrics.py` | Sec. 3.3 | Joint feasibility (core and full-operability), velocity-window rate, TAC mean/CVaR |
 
 ## Reproducing the paper
 
@@ -38,7 +38,7 @@ deterministic end to end.
 
 | Result | Runner | Output |
 |---|---|---|
-| Tables 8–10, Figs. feasibility/cost vs drift (headline, 16 seeds, polished) | `python consolidation_run.py --polish` (or `--cases N` per case, in parallel) | `results/consolidation_R2_polished*.json` |
+| Reliability and cost tables, feasibility/cost vs drift figures (headline, 16 seeds, polished) | `python consolidation_run.py --polish` (or `--cases N` per case, in parallel) | `results/consolidation_R2_polished*.json` |
 | Headline figures + gate summaries | `python make_paper_figures.py` | `results/figures/` |
 | Radius sweep figure | `python rho_sweep.py` then `python fig_rho_sweep_corrected.py` | `results/rho_sweep_corrected.json` |
 | Uncertainty-magnitude sweep figure | `python uncertainty_sweep.py` then `python fig_uncertainty_sweep.py` | `results/uncertainty_sweep.json` |
@@ -50,6 +50,7 @@ deterministic end to end.
 | PCTL diagnostic | `python pctl_diag_run.py` | `results/pctl_diag_R2.json` |
 | R1-model A/B attribution (legacy coefficients) | `python consolidation_run.py --polish --variant r1model` | `results/consolidation_R2_r1model_polished*.json` |
 | Sanity gate for all R2 changes | `python pilot_gate_r2.py` | `results/pilot_r2.json` |
+| Band-edge continuity audit of the correlation set (Supp. S2) | `python check_band_edges.py` | console table |
 
 Aggregated result JSONs behind the published tables/figures are included under
 `results/` so numbers can be checked without re-running.
@@ -70,6 +71,14 @@ Reynolds-band edge. Two transcription errors and one missing interpolation
 band present in the first-revision code were found and corrected (see
 Supplementary Material S2 of the paper); `legacy_r1_model=True` in a case
 dict reproduces the pre-audit behavior for attribution.
+
+## Consistency checks
+
+Every number in the paper is produced by running the scripts in this
+repository. The consistency checks used during development are included:
+`pilot_gate_r2.py` (among other checks, the identity between the WDRO
+objective at rho = 0 and the SAA objective) and `check_band_edges.py` (the
+band-edge continuity audit of the correlation set).
 
 ## License
 
